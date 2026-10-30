@@ -1,0 +1,96 @@
+{
+ "hero": {
+  "eyebrow": "Innovate. Secure. Transform.",
+  "text": "Connecting thought leaders and experts to solve challenges and drive innovation. FinTech delivers cutting-edge solutions in Agile Development, Cybersecurity, and IT Modernization."
+ },
+ "whyChoose": {
+  "heading": "Why Choose Fintech Solutions?",
+  "buttonLabel": "Learn More"
+ },
+ "servicesHeading": "Our Company Services",
+ "services": [
+  {
+   "title": "Global Startup Consulting Services",
+   "href": "/global-startup-consulting-services/"
+  },
+  {
+   "title": "MVP Development and Rapid Prototyping",
+   "href": "/mvp-development/"
+  },
+  {
+   "title": "Cybersecurity Assessments and IAM Implementations",
+   "href": "/cybersecurity/"
+  },
+  {
+   "title": "Digital Marketing Strategy and Campaign Execution",
+   "href": "/digital-marketing-strategy-and-campaign-execution/"
+  },
+  {
+   "title": "AI, blockchain, QA and Automation testing",
+   "href": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "title": "IT Training, Continuous Learning and Skill Development- and Exam Preparation",
+   "href": "/shop/"
+  },
+  {
+   "title": "Onshore / Back office",
+   "href": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "title": "Enterprise IT Cost Reduction & Reorganization",
+   "href": "/enterprise-it-cost-reduction-enterprise-reorganization/"
+  },
+  {
+   "title": "Real Estate Asset Management",
+   "href": "/real-estate-asset-management/"
+  }
+ ],
+ "labs": {
+  "heading": "FinTech Labs: Driving Innovation and Digital Transformation",
+  "paragraphs": [
+   "FinTech Labs is a hub for research, prototyping, and experimentation, dedicated to solving the Federal Government’s most complex challenges. Our mission is to develop advanced technology solutions that enhance efficiency and accelerate digital transformation.",
+   "Our cross-functional teams of engineers, researchers, and technologists collaborate to rapidly prototype emerging solutions. With deep industry expertise, we help organizations navigate digital disruptions and stay ahead in an evolving landscape.",
+   "Through partnerships with top technology companies, FinTech Labs leverages cutting-edge tech stacks to enhance customer experiences, drive efficiency, and foster long-term innovation."
+  ],
+  "image": {
+   "src": "/assets/services/2025-03-1-2.png",
+   "width": 600,
+   "height": 400,
+   "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-2.png",
+   "recovered_file": "assets/images/uploads/2025/03/1-2.png",
+   "alt": "FinTech Labs"
+  }
+ },
+ "certifications": {
+  "heading": "Certifications",
+  "image": {
+   "src": "/assets/images/2025-03-2-2.png",
+   "width": 1143,
+   "height": 156,
+   "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-2.png",
+   "recovered_file": "assets/images/uploads/2025/03/2-2.png",
+   "alt": "GSA Schedule GS-35F-0561Y, CMMI DEV ML3 appraised, ISO 27001, ISO 20000 and ISO 9001:2015 certifications"
+  }
+ },
+ "insightsHeading": "Insights & Innovations",
+ "insights": [
+  "/2021/08/27/creative-water-features-and-exterior/",
+  "/2025/09/12/why-your-startup-needs-automation-testing-in-2025/",
+  "/2026/06/28/why-global-startups-should-rethink-remote-u-s-incorporation/",
+  "/2025/09/05/when-should-you-hire-a-cybersecurity-professional/",
+  "/2026/06/21/remote-us-incorporation-stalls-startup-banking/",
+  "/2025/09/22/what-is-domain-reputation/",
+  "/2025/04/16/vanta/",
+  "/2026/02/13/u-s-banking-setup-for-international-founders-a-practical-launch-guide/",
+  "/2021/08/27/collar-brings-back-coffee-brewing-ritual/",
+  "/2025/04/16/trellix/",
+  "/2025/04/24/timus-networks-simplified-zero-trust-security-for-the-modern-smb/",
+  "/2025/09/19/the-breakdown-of-indian-it-costs-for-founders/"
+ ],
+ "omitted": {
+  "heroBackground": "hero background (uploads/2025/03/5.png, 6.png) was never archived",
+  "serviceCardBackgrounds": "8 of 9 service card background images were never archived",
+  "whyChooseBody": "the 'Why Choose' section has only a heading and a 'Learn More' button (linked to the homepage itself) in the archive"
+ }
+}

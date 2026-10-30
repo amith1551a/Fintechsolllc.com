@@ -1,0 +1,67 @@
+[
+ {
+  "name": "Startups & Small Enterprises",
+  "headline": "Agile Automation for Fast-Growing Companies",
+  "summary": "Startups and small businesses rely on speed and lean operations. We help you scale with automation-ready financial systems that reduce manual work and support rapid growth.",
+  "features": [
+   "Quick Integration: Connect easily with QuickBooks, Gusto, and Xero.",
+   "Automated Billing & Payments: Streamline client invoicing and vendor payments.",
+   "Investor Dashboards: Monitor cap tables, cash flow, and growth metrics in real time.",
+   "SOC 2-Lite Frameworks: Early-stage compliance tools to prep you for audits and funding."
+  ],
+  "image": null,
+  "href": "/industry/"
+ },
+ {
+  "name": "Legal & Financial Services",
+  "headline": "Billing Accuracy & Compliance for Regulated Industries",
+  "summary": "Law firms and accounting teams need precision and audit-readiness. Our workflow automation minimizes manual errors and keeps your operations compliant.",
+  "features": [
+   "Automated Time & Billing: Track hours and generate case bills effortlessly.",
+   "Trust Accounting Integrations: Clio and LeanLaw support for legal fund compliance.",
+   "Encrypted Document Flows: Secure and compliant legal document handling.",
+   "Audit Logs & E-Signatures: Maintain a digital trail with full accountability."
+  ],
+  "image": null,
+  "href": "/industry/"
+ },
+ {
+  "name": "Healthcare & Insurance",
+  "headline": "HIPAA-Compliant Fintech for Healthcare & Payers",
+  "summary": "We modernize financial operations for healthcare and insurance providers with secure, compliant systems that boost efficiency and reduce fraud risk.",
+  "features": [
+   "Claims Automation: Speed up claims processing and integrate with EHRs.",
+   "Patient Billing Portals: Offer real-time payment tracking and easy access.",
+   "HIPAA Compliance: Protect sensitive data with encryption and access control.",
+   "Fraud Detection Tools: Identify risks with AI-powered analysis."
+  ],
+  "image": null,
+  "href": "/industry/"
+ },
+ {
+  "name": "Public Sector & Nonprofits",
+  "headline": "Financial Transparency for Public-Facing Organizations",
+  "summary": "Public agencies and nonprofits require accountability and efficiency. We simplify fund tracking, reporting, and compliance through smart automation.",
+  "features": [
+   "Grant & Donor Portals: Track contributions and compliance in one place.",
+   "Automated Procurement: Speed up approvals and cut manual errors.",
+   "Audit Trail Visibility: Maintain transparency with real-time financial logs.",
+   "FISMA & SOC 1 Compliance: Built-in tools for public sector reporting standards."
+  ],
+  "image": null,
+  "href": "/industry/"
+ },
+ {
+  "name": "Education & EdTech",
+  "headline": "Financial Automation for Education & EdTech",
+  "summary": "From school districts to edtech startups, we streamline billing, budgeting, and reporting with tools built for education-sector finance.",
+  "features": [
+   "Tuition Billing & Reconciliation: Automate invoices and fee tracking.",
+   "ERP Integrations: Sync financial data with education platforms.",
+   "Forecasting Dashboards: Visualize budgets and spending trends.",
+   "Alumni & Aid Tracking: Manage donations, grants, and student aid records."
+  ],
+  "image": null,
+  "href": "/industry/"
+ }
+]

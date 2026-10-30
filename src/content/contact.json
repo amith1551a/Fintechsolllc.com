@@ -1,0 +1,41 @@
+{
+ "offices": [
+  {
+   "name": "TEXAS / HQ",
+   "address": "7247 marquis ln, irving, tx , 75063"
+  },
+  {
+   "name": "INDIA / R&D HQ",
+   "address": "6th Floor, Wing 1, D-block Cyber Gateway, Phase 2, HITEC City, Madhapur, Hyderabad, Telangana 500081"
+  },
+  {
+   "name": "VIETNAM",
+   "address": "Fintech Solutions llc, 18E Cong Hoa, Ward 4, District TAn Binh, Ho Chi Minh City"
+  },
+  {
+   "name": "AUSTRALIA",
+   "address": "Fintech Solutions llc, 38 Edwin Close, Manor Lakes VIC 3024 Australia"
+  },
+  {
+   "name": "CANADA",
+   "address": "Fintech Solutions llc, 1325 Derry road east, Unit 7, Mississauga Ontario L5T1B6"
+  },
+  {
+   "name": "DUBAI",
+   "address": "C1 Building, B.C. 1302201, Ajman Free Zone, UAE (Makani No.: 4442612247)"
+  }
+ ],
+ "phoneLines": [
+  "US : +1(682-434-9964) / 309-868-1551",
+  "Whatsapp US: +1(682-434-9964) / 309-868-1551"
+ ],
+ "emails": [
+  "amith@fintechsolllc.com",
+  "info@fintechsolllc.com"
+ ],
+ "intro": [
+  "Let’s help you get started.",
+  "You can fill out the form or click to schedule a meeting.",
+  "US : +1(682-434-9964) / 309-868-1551"
+ ]
+}

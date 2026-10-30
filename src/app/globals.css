@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+/* Brand tokens recovered from the original site:
+   navy  rgb(2,22,55)  WoodMart --wd-primary-color
+   blue  #4585c3       FinTeCh logo
+   amber #fbbc34       WoodMart --wd-alternative-color */
+@theme {
+  --color-navy: #021637;
+  --color-navy-800: #0a2550;
+  --color-navy-700: #14336a;
+  --color-brand: #4585c3;
+  --color-brand-600: #2f6aa8;
+  --color-brand-50: #eef4fb;
+  --color-amber: #fbbc34;
+  --color-amber-600: #e0a01a;
+  --color-ink: #1c2433;
+  --color-muted: #566173;
+  --color-line: #e2e8f0;
+  --color-surface: #f4f7fb;
+
+  --font-sans: var(--font-poppins), Arial, Helvetica, sans-serif;
+  --font-heading: var(--font-ubuntu), Arial, Helvetica, sans-serif;
+  --font-nav: var(--font-lato), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+@utility container-site {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2;
+}
+@utility btn-primary {
+  @apply btn bg-amber text-navy hover:bg-amber-600 focus-visible:outline-amber;
+}
+@utility btn-brand {
+  @apply btn bg-brand-600 text-white hover:bg-navy-700 focus-visible:outline-brand;
+}
+@utility btn-outline {
+  @apply btn border border-white/60 text-white hover:bg-white hover:text-navy focus-visible:outline-white;
+}
+
+@layer components {
+  /* Migrated WordPress/Elementor content (sanitised HTML from scripts/migrate.py) */
+  .content {
+    @apply text-[0.975rem] leading-7 text-muted;
+  }
+  .content > * + * {
+    @apply mt-5;
+  }
+  .content h2 {
+    @apply mt-10 text-2xl font-bold leading-tight text-navy first:mt-0 sm:text-3xl;
+  }
+  .content h3 {
+    @apply mt-8 text-xl font-semibold text-navy;
+  }
+  .content h4,
+  .content h5,
+  .content h6 {
+    @apply mt-6 text-lg font-semibold text-navy;
+  }
+  .content a {
+    @apply font-medium text-brand-600 underline decoration-brand/40 underline-offset-2 hover:text-navy;
+  }
+  .content strong {
+    @apply font-semibold text-ink;
+  }
+  .content ul {
+    @apply list-disc space-y-2 pl-6 marker:text-brand;
+  }
+  .content ol {
+    @apply list-decimal space-y-2 pl-6 marker:text-brand;
+  }
+  .content li > p {
+    @apply m-0;
+  }
+  .content img {
+    @apply h-auto max-w-full rounded-lg;
+  }
+  .content figure img {
+    @apply mx-auto;
+  }
+  .content blockquote {
+    @apply border-l-4 border-amber bg-surface px-5 py-4 italic text-ink;
+  }
+  .content blockquote cite {
+    @apply mt-2 block text-sm not-italic text-muted;
+  }
+  .content table {
+    @apply block w-full overflow-x-auto border-collapse text-sm sm:table;
+  }
+  .content td,
+  .content th {
+    @apply border border-line px-3 py-2 align-top;
+  }
+  .content tr:first-child td {
+    @apply bg-navy text-white;
+  }
+  .content tr:first-child td strong {
+    @apply text-white;
+  }
+  .content tr:nth-child(even) td {
+    @apply bg-surface;
+  }
+  .content td p {
+    @apply m-0;
+  }
+  .content .lead {
+    @apply text-lg leading-8 text-ink;
+  }
+  .content .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-wider text-brand-600;
+  }
+  .content .actions {
+    @apply inline-block mr-3;
+  }
+  .content .actions + .actions {
+    @apply mt-0;
+  }
+  .content a.btn {
+    @apply bg-brand-600 text-white no-underline hover:bg-navy hover:text-white;
+  }
+  .content .cards {
+    @apply grid gap-5 sm:grid-cols-2 lg:grid-cols-3;
+  }
+  .content .card {
+    @apply rounded-xl border border-line bg-white p-6 shadow-sm transition-shadow hover:shadow-md;
+  }
+  .content .card > * + * {
+    @apply mt-3;
+  }
+  .content .card h3 {
+    @apply mt-0 text-lg leading-snug;
+  }
+  .content .card h3 a {
+    @apply text-navy no-underline hover:text-brand-600;
+  }
+  .content .card img {
+    @apply max-h-20 w-auto rounded-md;
+  }
+  .content .stats {
+    @apply grid gap-5 sm:grid-cols-2 lg:grid-cols-4;
+  }
+  .content .stat {
+    @apply rounded-xl bg-navy p-6 text-center text-white;
+  }
+  .content .stat strong {
+    @apply block font-[family-name:var(--font-heading)] text-4xl text-amber;
+  }
+  .content .stat span {
+    @apply mt-2 block text-sm text-white/80;
+  }
+  .content .split {
+    @apply grid items-center gap-8 lg:grid-cols-2;
+  }
+  .content .split > div > * + * {
+    @apply mt-5;
+  }
+  .content .gallery {
+    @apply grid grid-cols-2 gap-4 sm:grid-cols-3;
+  }
+  .content .accordion {
+    @apply divide-y divide-line rounded-xl border border-line bg-white;
+  }
+  .content details {
+    @apply px-5 py-4;
+  }
+  .content summary {
+    @apply cursor-pointer list-none font-semibold text-navy marker:hidden;
+  }
+  .content summary::after {
+    content: "+";
+    @apply float-right text-xl leading-none text-brand-600;
+  }
+  .content details[open] summary::after {
+    content: "–";
+  }
+  .content details > :not(summary) {
+    @apply mt-3;
+  }
+}

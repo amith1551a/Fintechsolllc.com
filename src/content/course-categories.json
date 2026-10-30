@@ -1,0 +1,191 @@
+[
+ {
+  "slug": "business-and-leadership",
+  "name": "Business and Leadership",
+  "courses": [
+   "/product/certified-business-analysis-professionalcbap/",
+   "/product/certified-data-privacy-solutions-engineer-cdpse/",
+   "/product/microsoft-365-administrator-certification/",
+   "/product/pmi-pba-certification/"
+  ]
+ },
+ {
+  "slug": "cloud-computing",
+  "name": "Cloud Computing",
+  "courses": [
+   "/product/henectus-tincidunt/",
+   "/product/aws-certified-solutions-architect-professional/",
+   "/product/aws-certified-sysops-administrator-associate/",
+   "/product/aws-cloud-for-finance-professionals/",
+   "/product/aws-cloud-practitioner-certification/",
+   "/product/aws-developer-associate-certification/",
+   "/product/aws-machine-learning-with-data-analytics/",
+   "/product/certificate-of-cloud-auditing-knowledge/",
+   "/product/complete-vmware-vsphere-esxi-and-vcenter-administration/",
+   "/product/data-warehousing-on-aws/",
+   "/product/gcp-certification-training-course/",
+   "/product/microsoft-365-fundamentals/",
+   "/product/microsoft-azure-administrator-certification-training/",
+   "/product/microsoft-azure-developer-associate-certification/",
+   "/product/microsoft-azure-fundamentals/",
+   "/product/microsoft-certified-azure-solutions-architect-expert/",
+   "/product/mlops-engineering-on-aws/",
+   "/product/omnistudio-consultant/",
+   "/product/pl-400t00-microsoft-power-platform-developer/",
+   "/product/salesforce-administrator-app-builder-both-training/",
+   "/product/salesforce-b2b-commerce-lightning/",
+   "/product/salesforce-certification-training-course/",
+   "/product/salesforce-certified-administrator-201/",
+   "/product/salesforce-cpq-configure-price-quote/",
+   "/product/salesforce-cpq-solution-cpq301/",
+   "/product/salesforce-einstein-analytics-tableau-crm/",
+   "/product/salesforce-financial-services-cloud-certificate/",
+   "/product/salesforce-health-cloud-certification/",
+   "/product/salesforce-integration-architect/",
+   "/product/salesforce-marketing-cloud-admin/",
+   "/product/salesforce-platform-developer-1/",
+   "/product/salesforce-sales-cloud-consultant/",
+   "/product/sc-300-microsoft-identity-and-access-administrator/",
+   "/product/servicenow-administration-fundamentals/",
+   "/product/snowflake-certification-course/"
+  ]
+ },
+ {
+  "slug": "cyber-security",
+  "name": "Cyber Security",
+  "courses": [
+   "/product/aws-certified-security-speciality-security-engineering-on-aws/",
+   "/product/ccnp-cisco-enterprise-encor/",
+   "/product/certified-cloud-security-professional-ccsp/",
+   "/product/certified-data-privacy-solutions-engineer-cdpse-2/",
+   "/product/certified-ethical-hacker-v12-cehv12-from-ec-council/",
+   "/product/certified-in-governance-risk-and-compliance-cgrc/",
+   "/product/certified-in-risk-and-information-systems-control-crisc/",
+   "/product/certified-in-the-governance-of-enterprise-it-cgeit-2/",
+   "/product/certified-in-the-governance-of-enterprise-it-cgeit/",
+   "/product/certified-information-systems-auditor-cisa-from-isaca/",
+   "/product/certified-information-systems-security-professional-cissp/",
+   "/product/cipp-e-certification-iapp/"
+  ]
+ },
+ {
+  "slug": "data-science-artificial-intelligence",
+  "name": "Data Science & Artificial Intelligence",
+  "courses": [
+   "/product/ai-102-designing-and-implementing-an-azure-ai-solution/",
+   "/product/apache-spark-and-scala-certification/",
+   "/product/artificial-intelligence-governance-professional-aigp-by-iapp/",
+   "/product/aws-ai-certification-course/",
+   "/product/aws-certified-data-engineer-associate/",
+   "/product/big-data-hadoop/",
+   "/product/data-engineering-on-microsoft-azure-dp-203/",
+   "/product/data-science-with-python/",
+   "/product/data-science-with-r-programing/",
+   "/product/databricks-certified-data-engineer-professional/",
+   "/product/databricks-training-course/",
+   "/product/informatica-with-big-data-bdm/"
+  ]
+ },
+ {
+  "slug": "devops",
+  "name": "DevOps",
+  "courses": [
+   "/product/aws-certified-devops-engineer/",
+   "/product/certified-kubernetes-administrator/",
+   "/product/designing-and-implementing-microsoft-devops-az-400/",
+   "/product/docker-certification/"
+  ]
+ },
+ {
+  "slug": "it-service-management-itsm",
+  "name": "IT Service Management (ITSM)",
+  "courses": [
+   "/product/iso-27000-foundation/",
+   "/product/iso-iec-27001-training/",
+   "/product/itil-v4-foundation-certification/",
+   "/product/itil-4-specialist-create-deliver-and-support/",
+   "/product/itil-4-specialist-drive-stakeholder-value/",
+   "/product/itil-4-specialist-high-velocity-it/",
+   "/product/itil-4-strategist-direct-plan-and-improve/"
+  ]
+ },
+ {
+  "slug": "oracle",
+  "name": "Oracle",
+  "courses": [
+   "/product/oracle-cloud-infrastructure-architect-associate/",
+   "/product/oracle-cloud-infrastructure-foundations-associate/"
+  ]
+ },
+ {
+  "slug": "programming-certification",
+  "name": "Programming Certification",
+  "courses": [
+   "/product/c-certification/",
+   "/product/capm-certification-training/",
+   "/product/certified-scrummaster-csm-certification/",
+   "/product/java-deep-dive/",
+   "/product/microsoft-net-framework/",
+   "/product/pmi-acp-agile-certified-practitioner/",
+   "/product/pmi-rmp-certification/",
+   "/product/prince2-7-foundation-and-practitioner/",
+   "/product/prince2-7-practitioner/",
+   "/product/prince2-foundation-practitioner/",
+   "/product/prince2-foundation-practitioner-copy/",
+   "/product/project-management-professional-pmp-pmi/",
+   "/product/togaf-9-combined-level-1-and-2-training/"
+  ]
+ },
+ {
+  "slug": "quality-management",
+  "name": "Quality Management",
+  "courses": [
+   "/product/six-sigma-black-belt/",
+   "/product/six-sigma-green-belt/"
+  ]
+ },
+ {
+  "slug": "safe-agile",
+  "name": "Safe & Agile",
+  "courses": [
+   "/product/certified-scrum-product-owner-cspo/",
+   "/product/implementing-safe-6-0-with-spc-safe-practice-consultant/",
+   "/product/leading-safe-6-0-training-with-safe-agile/",
+   "/product/professional-scrum-master-i-psm-i/",
+   "/product/professional-scrum-master-ii-psm-ii/",
+   "/product/safe-product-owner-product-manager-popm-certification/",
+   "/product/safe-6-release-train-engineer-rte/"
+  ]
+ },
+ {
+  "slug": "software-testing",
+  "name": "Software Testing",
+  "courses": [
+   "/product/cucumber-training/",
+   "/product/istqb-foundation-level/",
+   "/product/selenium-essentials-training/"
+  ]
+ },
+ {
+  "slug": "special-products",
+  "name": "Special Products",
+  "courses": [
+   "/product/comprehensive-career-package/",
+   "/product/interview-preparation-service/",
+   "/product/project-help-services/",
+   "/product/resume-distribution-zapper-service/",
+   "/product/resume-distribution-service/",
+   "/product/resume-writing-services/"
+  ]
+ },
+ {
+  "slug": "web-development",
+  "name": "Web Development",
+  "courses": [
+   "/product/angular-certification-training/",
+   "/product/java-certification-training/",
+   "/product/react-js-training-course-with-certification/",
+   "/product/ui-ux-design-certification-course/"
+  ]
+ }
+]

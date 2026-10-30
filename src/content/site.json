@@ -1,0 +1,137 @@
+{
+ "name": "Fintech Solutions LLC",
+ "shortName": "FinTech Solutions",
+ "tagline": "Fintech Solutions llc., Global Vision. American Launch.",
+ "homeTitle": "Fintech Solllc – Fintech Solutions llc., Global Vision. American Launch.",
+ "logo": {
+  "src": "/assets/logos/2025-03-logo.jpg",
+  "width": 1920,
+  "height": 500,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/logo.jpg",
+  "recovered_file": "assets/logos/uploads/2025/03/logo.jpg"
+ },
+ "logoTransparent": {
+  "src": "/assets/logos/2025-03-logo-no-bg.png",
+  "width": 384,
+  "height": 100,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/logo-no-bg.png",
+  "recovered_file": "assets/logos/uploads/2025/03/logo-no-bg.png"
+ },
+ "nav": [
+  {
+   "label": "Home",
+   "href": "/",
+   "children": [
+    {
+     "label": "Global Business Advisors",
+     "href": "/global-startup-consulting-services/"
+    },
+    {
+     "label": "Cybersecurity",
+     "href": "/cybersecurity/"
+    },
+    {
+     "label": "MVP Development",
+     "href": "/mvp-development/"
+    },
+    {
+     "label": "IT Training",
+     "href": "/shop/"
+    },
+    {
+     "label": "Back Office and Fintech Solutions",
+     "href": "/back-office-and-fintech-solutions/"
+    },
+    {
+     "label": "AI, blockchain, QA and Automation Testing",
+     "href": "/ai-blockchain-qa-and-automation-testing/"
+    },
+    {
+     "label": "Digital Marketing Strategy and Campaign Execution",
+     "href": "/digital-marketing-strategy-and-campaign-execution/"
+    },
+    {
+     "label": "Enterprise IT Cost Reduction & Enterprise Reorganization",
+     "href": "/enterprise-it-cost-reduction-enterprise-reorganization/"
+    },
+    {
+     "label": "Real Estate Asset Management",
+     "href": "/real-estate-asset-management/"
+    }
+   ]
+  },
+  {
+   "label": "Services",
+   "href": "/services/"
+  },
+  {
+   "label": "Our Partners",
+   "href": "/our-partners/"
+  },
+  {
+   "label": "Industry",
+   "href": "/industry/"
+  },
+  {
+   "label": "Be our partner",
+   "href": "/be-our-partner/"
+  },
+  {
+   "label": "About us",
+   "href": "/about-us-3/",
+   "children": [
+    {
+     "label": "Blog",
+     "href": "/blog/"
+    }
+   ]
+  },
+  {
+   "label": "Contact us",
+   "href": "/contact-us/"
+  }
+ ],
+ "ctaLabel": "Get Quote",
+ "ctaHref": "/get-quote/",
+ "footerAbout": "FinTech Solutions delivers secure, efficient, and scalable financial technology, empowering businesses with seamless digital transactions and optimized operations.",
+ "usefulLinks": [
+  {
+   "label": "Cancellation and Refund Policy",
+   "href": "/cancellation-and-refund-policy/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy/"
+  },
+  {
+   "label": "Terms of Service",
+   "href": "/terms-of-service/"
+  }
+ ],
+ "contact": {
+  "address": "7247 marquis ln, irving, tx , 75063",
+  "phone": "+1(682-434-9964)",
+  "phoneHref": "tel:+16824349964",
+  "email": "amith@fintechsolllc.com"
+ },
+ "social": [
+  {
+   "network": "instagram",
+   "href": "https://www.instagram.com/fintechsollllc.official/"
+  },
+  {
+   "network": "facebook",
+   "href": "https://www.facebook.com/share/16BZnyiNvn/"
+  },
+  {
+   "network": "youtube",
+   "href": "https://www.youtube.com/@FintechSolutionsLLC"
+  },
+  {
+   "network": "linkedin",
+   "href": "https://www.linkedin.com/company/91432972/"
+  }
+ ],
+ "copyright": "© Fintech Solutions – 2025 All Rights Reserved.",
+ "source": "recovered homepage header/footer (capture 20260711000045)"
+}

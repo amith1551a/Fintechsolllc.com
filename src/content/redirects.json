@@ -1,0 +1,32 @@
+[
+ {
+  "source": "/category/business/page/4/",
+  "destination": "/category/business/",
+  "reason": "pagination slot from the original archive; all its posts are on the listing's earlier pages"
+ },
+ {
+  "source": "/product-category/data-science-courses/",
+  "destination": "/shop/",
+  "reason": "course category was empty in the original store"
+ },
+ {
+  "source": "/product-category/microsoft-azure/",
+  "destination": "/shop/",
+  "reason": "course category was empty in the original store"
+ },
+ {
+  "source": "/product-category/mobile-app-development/",
+  "destination": "/shop/",
+  "reason": "course category was empty in the original store"
+ },
+ {
+  "source": "/product-category/os-mobile-dev/",
+  "destination": "/shop/",
+  "reason": "course category was empty in the original store"
+ },
+ {
+  "source": "/product-category/project-management/",
+  "destination": "/shop/",
+  "reason": "course category was empty in the original store"
+ }
+]

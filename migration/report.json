@@ -1,0 +1,1932 @@
+{
+ "counts": {
+  "pages": 28,
+  "posts": 90,
+  "categories": 9,
+  "courses": 125,
+  "courseCategories": 13,
+  "assets": 38,
+  "industries": 5,
+  "partners": 25
+ },
+ "excluded_pages": [
+  {
+   "path": "/author/appzeto/",
+   "reason": "author archive (only a WordPress listing of posts)"
+  },
+  {
+   "path": "/build-new-digital-agency/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "path": "/cart-2/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/cart-3/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/cart/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/checkout-2/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/checkout/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/compare/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/dashboard/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/free-business-tools/",
+   "reason": "login-restricted page; no content in the archive"
+  },
+  {
+   "path": "/free-tools/",
+   "reason": "login-restricted page; no content in the archive"
+  },
+  {
+   "path": "/home-furniture/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "path": "/instructor-registration/",
+   "reason": "LMS registration form shortcode only; needs the original backend"
+  },
+  {
+   "path": "/medical-services/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "path": "/my-account/",
+   "reason": "WooCommerce account page; needs the original backend"
+  },
+  {
+   "path": "/my-account/lost-password/",
+   "reason": "WooCommerce account page; needs the original backend"
+  },
+  {
+   "path": "/portfolio/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/a-lacus-bibendum-pulvinar/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/et-vestibulum-quis-a-suspendisse/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/imperdiet-mauris-a-nontin/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/leo-uteu-ullamcorper/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/netus-eu-mollis-hac-dignis/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/potenti-parturient-parturie/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/rhoncus-quisque-sollicitudin/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/suspendisse-quam-at-vestibulum/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/portfolio/venenatis-nam-phasellus/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/project-cat/accessories/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/project-cat/decor/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/project-cat/furniture/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/project-cat/kitchen/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/project-cat/lighting/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  },
+  {
+   "path": "/sample-page/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "path": "/student-registration/",
+   "reason": "LMS registration form shortcode only; needs the original backend"
+  },
+  {
+   "path": "/tag/chair/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/furniture/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/guide/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/inspiratio/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/news/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/sofa/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/style/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/table/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/tag/trends/",
+   "reason": "tag archives only contain WoodMart furniture demo tags (tags are kept on each article)"
+  },
+  {
+   "path": "/wishlist/",
+   "reason": "WooCommerce/LMS function page; needs the original e-commerce backend"
+  },
+  {
+   "path": "/woodmart_slider/furniture-slider/",
+   "reason": "WoodMart theme demo content (lorem ipsum / furniture demo)"
+  }
+ ],
+ "unrecovered_pages": [
+  "https://fintechsolllc.com/author/appzeto/page/2/",
+  "https://fintechsolllc.com/author/appzeto/page/3/",
+  "https://fintechsolllc.com/author/appzeto/page/4/",
+  "https://fintechsolllc.com/author/fintechsolllc/",
+  "https://fintechsolllc.com/author/siteaccessagencyreport-ai/",
+  "https://fintechsolllc.com/blog/page/4/",
+  "https://fintechsolllc.com/blog/page/5/",
+  "https://fintechsolllc.com/blog/page/6/",
+  "https://fintechsolllc.com/blog/page/7/",
+  "https://fintechsolllc.com/product-category/cyber-security/page/2/",
+  "https://fintechsolllc.com/product-category/data-science-artificial-intelligence/page/2/"
+ ],
+ "recovered_but_unrouted": [],
+ "unresolved_links": [
+  {
+   "href": "/free-tools/",
+   "page": "site-header",
+   "reason": "login-restricted page; no content in the archive"
+  },
+  {
+   "href": "/medical-services/",
+   "page": "/back-office-and-fintech-solutions/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "href": "/build-new-digital-agency/",
+   "page": "/back-office-and-fintech-solutions/",
+   "reason": "WoodMart theme demo page"
+  },
+  {
+   "href": "/medical-services/",
+   "page": "/compliance-solutions/",
+   "reason": "WoodMart theme demo page"
+  }
+ ],
+ "nav_removed": [
+  {
+   "href": "pages/free-tools.html",
+   "label": "Restricted content",
+   "reason": "target page not migrated (login-restricted, no archived content)"
+  }
+ ],
+ "missing_images": [
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/airbnb.png",
+   "page": "/2021/08/26/minimalist-japanese-inspired-furniture/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/fidelity.png",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/post-3-gallery-1-min.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/post-3-gallery-2-min.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/post-3-gallery-3-min.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/post-3-gallery-4-min.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/wd-blog-9-700x700.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/wd-blog-8-700x700.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/07/wd-blog-4-700x700.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/wd-blog-5-700x700.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/wd-blog-9.jpg",
+   "page": "/2021/08/26/the-big-design-wall-likes-pictures/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/drop.png",
+   "page": "/2021/08/27/reinterprets-the-classic-bookshelf/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/asdfghj.png",
+   "page": "/2025/04/14/automated-email-funnels-for-corepay-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/q3.png",
+   "page": "/2025/04/14/automation-testing-for-a-digital-lending-platform/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/q2.png",
+   "page": "/2025/04/14/blockchain-for-secure-trade-settlements/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/weq.png",
+   "page": "/2025/04/14/linkedin-thought-leadership-for-ledgerlink-capital/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/q1.png",
+   "page": "/2025/04/14/predictive-ai-for-investment-advisory/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-2.png",
+   "page": "/2025/04/16/aws/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-2-430x302.png",
+   "page": "/2025/04/16/aws/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-4.png",
+   "page": "/2025/04/16/blackberry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-4-430x302.png",
+   "page": "/2025/04/16/blackberry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10-2.png",
+   "page": "/2025/04/16/checkmarx/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10-2-430x302.png",
+   "page": "/2025/04/16/checkmarx/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-5.png",
+   "page": "/2025/04/16/cisco/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-5-430x302.png",
+   "page": "/2025/04/16/cisco/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/14-1.png",
+   "page": "/2025/04/16/coalition/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/14-1-430x302.png",
+   "page": "/2025/04/16/coalition/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/13-1.png",
+   "page": "/2025/04/16/cowbell-cyber-inc/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/13-1-430x302.png",
+   "page": "/2025/04/16/cowbell-cyber-inc/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/17-1.png",
+   "page": "/2025/04/16/cysurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/17-1-430x302.png",
+   "page": "/2025/04/16/cysurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/16-1.png",
+   "page": "/2025/04/16/eset/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/16-1-430x302.png",
+   "page": "/2025/04/16/eset/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-4.png",
+   "page": "/2025/04/16/fortinet/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-4-430x302.png",
+   "page": "/2025/04/16/fortinet/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/19-1.png",
+   "page": "/2025/04/16/guardz/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/19-1-430x302.png",
+   "page": "/2025/04/16/guardz/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/18-1.png",
+   "page": "/2025/04/16/is-partners-llc/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/18-1-430x302.png",
+   "page": "/2025/04/16/is-partners-llc/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/isms.png",
+   "page": "/2025/04/16/managed-engine/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/isms-430x302.png",
+   "page": "/2025/04/16/managed-engine/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-4.png",
+   "page": "/2025/04/16/palo-alto/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-4-430x302.png",
+   "page": "/2025/04/16/palo-alto/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-2.png",
+   "page": "/2025/04/16/pingid/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-2-430x302.png",
+   "page": "/2025/04/16/pingid/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/15-1.png",
+   "page": "/2025/04/16/ridgebot-security/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/15-1-430x302.png",
+   "page": "/2025/04/16/ridgebot-security/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/agat.png",
+   "page": "/2025/04/24/agat-software-secure-compliant-communication-for-the-digital-enterprise/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/agat-430x302.png",
+   "page": "/2025/04/24/agat-software-secure-compliant-communication-for-the-digital-enterprise/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/1.png",
+   "page": "/2025/05/06/rapidfire-tools/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/1-430x302.png",
+   "page": "/2025/05/06/rapidfire-tools/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/1157.jpg",
+   "page": "/2025/08/11/how-startups-can-launch-in-the-u-s-without-leaving-home-a-step-by-step-playbook/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/1157-1200x800.jpg",
+   "page": "/2025/08/11/how-startups-can-launch-in-the-u-s-without-leaving-home-a-step-by-step-playbook/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/7162.jpg",
+   "page": "/2025/08/22/5-red-flags-that-show-your-ai-system-needs-professional-help/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/7162-1200x800.jpg",
+   "page": "/2025/08/22/5-red-flags-that-show-your-ai-system-needs-professional-help/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/65672.jpg",
+   "page": "/2025/09/05/when-should-you-hire-a-cybersecurity-professional/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/65672-1200x800.jpg",
+   "page": "/2025/09/05/when-should-you-hire-a-cybersecurity-professional/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/2150038862.jpg",
+   "page": "/2025/09/12/why-your-startup-needs-automation-testing-in-2025/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/2150038862-1199x800.jpg",
+   "page": "/2025/09/12/why-your-startup-needs-automation-testing-in-2025/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/15027.jpg",
+   "page": "/2025/09/19/the-breakdown-of-indian-it-costs-for-founders/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/15027-1199x800.jpg",
+   "page": "/2025/09/19/the-breakdown-of-indian-it-costs-for-founders/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/120057.jpg",
+   "page": "/2025/09/22/what-is-domain-reputation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/120057-1199x800.jpg",
+   "page": "/2025/09/22/what-is-domain-reputation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/120175.jpg",
+   "page": "/2025/09/26/how-to-start-a-us-business-from-india-in-just-1-day/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/120175-1200x800.jpg",
+   "page": "/2025/09/26/how-to-start-a-us-business-from-india-in-just-1-day/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/startup.jpg",
+   "page": "/2025/09/26/startup-growth-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/startup-1200x800.jpg",
+   "page": "/2025/09/26/startup-growth-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-38HnYyZyVok-unsplash.jpg",
+   "page": "/2025/10/03/can-you-really-set-up-a-us-bank-account-remotely-in-1-day/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-38HnYyZyVok-unsplash-1200x800.jpg",
+   "page": "/2025/10/03/can-you-really-set-up-a-us-bank-account-remotely-in-1-day/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/remote.jpg",
+   "page": "/2025/10/03/smarter-it-systems-to-help-your-startup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/remote-1078x800.jpg",
+   "page": "/2025/10/03/smarter-it-systems-to-help-your-startup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-6RZoR64FYj0-unsplash.jpg",
+   "page": "/2025/10/10/end-to-end-support-for-company-incorporation-in-global-markets/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-6RZoR64FYj0-unsplash-1200x800.jpg",
+   "page": "/2025/10/10/end-to-end-support-for-company-incorporation-in-global-markets/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-V70Op_wq0KM-unsplash.jpg",
+   "page": "/2025/10/17/assistance-in-obtaining-business-licenses-permits-and-regulatory-approvals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-V70Op_wq0KM-unsplash-1300x731.jpg",
+   "page": "/2025/10/17/assistance-in-obtaining-business-licenses-permits-and-regulatory-approvals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-dJJhuiF1-JQ-unsplash.jpg",
+   "page": "/2025/10/24/streamlining-operational-processes-for-efficiency-and-scalability/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-dJJhuiF1-JQ-unsplash-1300x731.jpg",
+   "page": "/2025/10/24/streamlining-operational-processes-for-efficiency-and-scalability/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-NDxkjATer2Q-unsplash.jpg",
+   "page": "/2025/10/31/guidance-on-structuring-business-entities-to-optimize-growth-and-compliance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/getty-images-NDxkjATer2Q-unsplash-1200x800.jpg",
+   "page": "/2025/10/31/guidance-on-structuring-business-entities-to-optimize-growth-and-compliance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/132213.jpg",
+   "page": "/2025/11/07/risk-assessment-and-mitigation-strategies-for-global-expansion/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/132213-1199x800.jpg",
+   "page": "/2025/11/07/risk-assessment-and-mitigation-strategies-for-global-expansion/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/179.jpg",
+   "page": "/2025/11/21/implementation-of-effective-financial-management-and-accounting-systems/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/179-1200x800.jpg",
+   "page": "/2025/11/21/implementation-of-effective-financial-management-and-accounting-systems/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/23336.jpg",
+   "page": "/2025/11/28/audit-and-taxation-solutions-to-ensure-compliance-with-global-regulations/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/23336-1200x800.jpg",
+   "page": "/2025/11/28/audit-and-taxation-solutions-to-ensure-compliance-with-global-regulations/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/1032-1.jpg",
+   "page": "/2025/12/05/tax-planning-and-optimization-to-reduce-liabilities-and-improve-cash-flow/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/1032-1-1200x800.jpg",
+   "page": "/2025/12/05/tax-planning-and-optimization-to-reduce-liabilities-and-improve-cash-flow/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/financial-tools.jpg",
+   "page": "/2025/12/12/financial-tools-to-keep-startup-books-clean/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/financial-tools-1200x800.jpg",
+   "page": "/2025/12/12/financial-tools-to-keep-startup-books-clean/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/risk-management.jpg",
+   "page": "/2025/12/19/stay-financially-steady-with-smart-risk-planning/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/risk-management-1200x800.jpg",
+   "page": "/2025/12/19/stay-financially-steady-with-smart-risk-planning/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/global-expansion.jpg",
+   "page": "/2025/12/26/take-your-startup-global-with-smart-systems/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/global-expansion-1198x800.jpg",
+   "page": "/2025/12/26/take-your-startup-global-with-smart-systems/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/market-research.jpg",
+   "page": "/2026/01/02/u-s-soft-launch-with-smarter-market-research/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/market-research-1200x800.jpg",
+   "page": "/2026/01/02/u-s-soft-launch-with-smarter-market-research/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/international-business.jpg",
+   "page": "/2026/01/09/compliant-and-protected-when-launching-in-the-u-s/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/international-business-1007x800.jpg",
+   "page": "/2026/01/09/compliant-and-protected-when-launching-in-the-u-s/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/135264.jpg",
+   "page": "/2026/01/14/startup-systems-ready-with-smart-it-support/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/135264-1200x800.jpg",
+   "page": "/2026/01/14/startup-systems-ready-with-smart-it-support/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/trade.jpg",
+   "page": "/2026/01/16/how-startups-handle-us-banking-and-trade/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/trade-1198x800.jpg",
+   "page": "/2026/01/16/how-startups-handle-us-banking-and-trade/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/new-market.jpg",
+   "page": "/2026/01/23/enter-new-markets-and-grow-abroad/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/new-market-1198x800.jpg",
+   "page": "/2026/01/23/enter-new-markets-and-grow-abroad/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/investment.jpg",
+   "page": "/2026/01/30/how-startups-can-get-investor-ready/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/investment-1199x800.jpg",
+   "page": "/2026/01/30/how-startups-can-get-investor-ready/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/ai-development.jpg",
+   "page": "/2026/02/06/choose-an-ai-development-partner-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/ai-development-1200x800.jpg",
+   "page": "/2026/02/06/choose-an-ai-development-partner-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/us-banking.jpg",
+   "page": "/2026/02/13/u-s-banking-setup-for-international-founders-a-practical-launch-guide/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/us-banking-1198x800.jpg",
+   "page": "/2026/02/13/u-s-banking-setup-for-international-founders-a-practical-launch-guide/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/bank.jpg",
+   "page": "/2026/02/13/u-s-startup-bank-account-setup-guide/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/bank-1200x800.jpg",
+   "page": "/2026/02/13/u-s-startup-bank-account-setup-guide/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/fintech.jpg",
+   "page": "/2026/02/18/summer-2026-guide-to-u-s-incorporation-for-indian-fintech-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/fintech-1300x650.jpg",
+   "page": "/2026/02/18/summer-2026-guide-to-u-s-incorporation-for-indian-fintech-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/incorporation.jpg",
+   "page": "/2026/02/22/2026-u-s-incorporation-checklist-for-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/incorporation-1199x800.jpg",
+   "page": "/2026/02/22/2026-u-s-incorporation-checklist-for-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/inc.jpg",
+   "page": "/2026/03/01/u-s-incorporation-guide-for-global-startups-2026/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/AI.jpg",
+   "page": "/2026/03/08/spring-2026-ai-rollout-strategy-for-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/02/AI-1200x800.jpg",
+   "page": "/2026/03/08/spring-2026-ai-rollout-strategy-for-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/jonathan-francisca-_DtURHieodI-unsplash.jpg",
+   "page": "/2026/03/15/remote-business-incorporation-usa-first-time-founder-faq/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/jonathan-francisca-_DtURHieodI-unsplash-1200x800.jpg",
+   "page": "/2026/03/15/remote-business-incorporation-usa-first-time-founder-faq/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/getty-images-kJsqp74dDXM-unsplash.jpg",
+   "page": "/2026/03/22/summer-2026-blueprint-for-startup-tax-and-bookkeeping-in-the-usa/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/getty-images-kJsqp74dDXM-unsplash-1200x800.jpg",
+   "page": "/2026/03/22/summer-2026-blueprint-for-startup-tax-and-bookkeeping-in-the-usa/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/cybersecurity.jpg",
+   "page": "/2026/03/29/spring-2026-checklist-for-cybersecurity-services-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/cybersecurity-1151x800.jpg",
+   "page": "/2026/03/29/spring-2026-checklist-for-cybersecurity-services-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/getty-images-zNpj-I_FrTY-unsplash.jpg",
+   "page": "/2026/04/05/remote-us-bank-setup-for-global-startup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/03/getty-images-zNpj-I_FrTY-unsplash-1203x800.jpg",
+   "page": "/2026/04/05/remote-us-bank-setup-for-global-startup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/christin-hume-mfB1B1s4sMc-unsplash.jpg",
+   "page": "/2026/04/12/reduce-it-spend-2026-optimization-plan/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/christin-hume-mfB1B1s4sMc-unsplash-1200x800.jpg",
+   "page": "/2026/04/12/reduce-it-spend-2026-optimization-plan/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/ofspace-llc-ZTLUNxoRaPY-unsplash.jpg",
+   "page": "/2026/04/19/automation-testing-services-india-launch-ready-qa-for-u-s-bound-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/ofspace-llc-ZTLUNxoRaPY-unsplash-1200x800.jpg",
+   "page": "/2026/04/19/automation-testing-services-india-launch-ready-qa-for-u-s-bound-startups/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/pexels-pavel-danilyuk-8424459.jpg",
+   "page": "/2026/04/26/spring-2026-guide-to-us-business/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/pexels-pavel-danilyuk-8424459-1198x800.jpg",
+   "page": "/2026/04/26/spring-2026-guide-to-us-business/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/getty-images-pmGWzNrOA6o-unsplash.jpg",
+   "page": "/2026/05/03/funding-advisory-for-startups-in-the-usa/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/04/getty-images-pmGWzNrOA6o-unsplash-1200x800.jpg",
+   "page": "/2026/05/03/funding-advisory-for-startups-in-the-usa/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/Cybersecurity-Consulting.jpg",
+   "page": "/2026/05/10/summer-2026-readiness-guide-for-cybersecurity-consulting-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/Cybersecurity-Consulting-1200x800.jpg",
+   "page": "/2026/05/10/summer-2026-readiness-guide-for-cybersecurity-consulting-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/getty-images-7j4BocMJy84-unsplash.jpg",
+   "page": "/2026/05/17/summer-2026-checklist-for-remote-u-s-business-incorporation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/getty-images-7j4BocMJy84-unsplash-1200x800.jpg",
+   "page": "/2026/05/17/summer-2026-checklist-for-remote-u-s-business-incorporation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/curated-lifestyle-HbrkV4cRThE-unsplash.jpg",
+   "page": "/2026/05/24/summer-2026-playbook-for-global-startup-cybersecurity-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/curated-lifestyle-HbrkV4cRThE-unsplash-1221x800.jpg",
+   "page": "/2026/05/24/summer-2026-playbook-for-global-startup-cybersecurity-in-india/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/20417.jpg",
+   "page": "/2026/05/31/summer-plan-for-remote-us-bank-account/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/20417-1199x800.jpg",
+   "page": "/2026/05/31/summer-plan-for-remote-us-bank-account/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/6017.jpg",
+   "page": "/2026/06/07/common-remote-u-s-incorporation-mistakes-global-startups-make/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/05/6017-1200x800.jpg",
+   "page": "/2026/06/07/common-remote-u-s-incorporation-mistakes-global-startups-make/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/getty-images-a5AforzBKwc-unsplash.jpg",
+   "page": "/2026/06/14/post-incorporation-recovery-plan-fix-your-broken-u-s-setup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/getty-images-a5AforzBKwc-unsplash-1157x800.jpg",
+   "page": "/2026/06/14/post-incorporation-recovery-plan-fix-your-broken-u-s-setup/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg",
+   "page": "/2026/06/21/remote-us-incorporation-stalls-startup-banking/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/tim-van-der-kuip-CPs2X8JYmS8-unsplash-1200x800.jpg",
+   "page": "/2026/06/21/remote-us-incorporation-stalls-startup-banking/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/pexels-karola-g-5717719.jpg",
+   "page": "/2026/06/28/why-global-startups-should-rethink-remote-u-s-incorporation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/pexels-karola-g-5717719-1200x800.jpg",
+   "page": "/2026/06/28/why-global-startups-should-rethink-remote-u-s-incorporation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/pexels-aukid-phumsirichat-3095759-4691474.jpg",
+   "page": "/2026/07/05/after-setup-keeping-a-u-s-account-compliant-for-global-founders/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2026/06/pexels-aukid-phumsirichat-3095759-4691474-1202x800.jpg",
+   "page": "/2026/07/05/after-setup-keeping-a-u-s-account-compliant-for-global-founders/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/5.png",
+   "page": "/industry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/4.png",
+   "page": "/industry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/3.png",
+   "page": "/industry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/2.png",
+   "page": "/industry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/1-1.png",
+   "page": "/industry/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/partner.png",
+   "page": "/be-our-partner/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/kl-1300x339.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/122.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1231.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/asw.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/32.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/321.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-3.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/4-1.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/3-2.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-3.png",
+   "page": "/global-startup-consulting-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/xdx.png",
+   "page": "/mvp-development/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/cyber1.png",
+   "page": "/cybersecurity/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-3.png",
+   "page": "/cybersecurity/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/4-1.png",
+   "page": "/cybersecurity/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/3-2.png",
+   "page": "/cybersecurity/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-3.png",
+   "page": "/cybersecurity/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/asad.png",
+   "page": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/nvnb.png",
+   "page": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/600-x-800-px.png",
+   "page": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/hi.png",
+   "page": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/nnjj.png",
+   "page": "/digital-marketing-strategy-and-campaign-execution/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/assu.png",
+   "page": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-3.png",
+   "page": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/4-1.png",
+   "page": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/3-2.png",
+   "page": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-3.png",
+   "page": "/back-office-and-fintech-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/wq.png",
+   "page": "/enterprise-it-cost-reduction-enterprise-reorganization/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/23112.png",
+   "page": "/enterprise-it-cost-reduction-enterprise-reorganization/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/r2.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-10.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-9-150x150.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-9-150x150.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-7-150x150.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/elementor/thumbs/2-9-r4tmc1n4sfuyrapbmoux30k0fiu6u16ktwnpy6ubog.png",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/assu.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/xzc.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-3.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/4-1.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/3-2.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-3.png",
+   "page": "/assurance/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/ds.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-2.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/8-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/9-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10-1.png",
+   "page": "/business-consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/assu.png",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/assertion-e5I5Zq8RSISTumxlrPKTxw-300x300-1-150x150.png",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/rpa-badge-img1-150x150.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cipt-150x125.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cipp-150x125.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cipm-new-150x125.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/IAF-COMBINED-MARK-150x150.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cissp-logo-150x150.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cism-150x150.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/cisa-150x150.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/05/A2LAAccredited-150x125.jpg",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/123-1300x339.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/12.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax1.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax2.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax3.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax4.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax5.png",
+   "page": "/consulting/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/cyber2-1-400x267.png",
+   "page": "/cybersecurity-access-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/aq.png",
+   "page": "/cybersecurity-access-management/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/cyber2-1-400x267.png",
+   "page": "/cybersecurity-assessments/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/dsad.png",
+   "page": "/it-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/asa.png",
+   "page": "/it-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/cyber2-1.png",
+   "page": "/managed-service-provider/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/rp.png",
+   "page": "/rapid-prototyping/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/taxban-1300x339.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax1.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax2.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax3.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax4.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax5.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/03/tax6.png",
+   "page": "/tax/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-8.png",
+   "page": "/product/ai-102-designing-and-implementing-an-azure-ai-solution/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-7.png",
+   "page": "/product/angular-certification-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-7.png",
+   "page": "/product/apache-spark-and-scala-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-7.png",
+   "page": "/product/artificial-intelligence-governance-professional-aigp-by-iapp/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-7.png",
+   "page": "/product/aws-ai-certification-course/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-6.png",
+   "page": "/product/aws-certified-data-engineer-associate/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/17-4.png",
+   "page": "/product/aws-certified-devops-engineer/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3.png",
+   "page": "/product/aws-certified-solutions-architect-professional/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5.png",
+   "page": "/product/aws-certified-sysops-administrator-associate/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4.png",
+   "page": "/product/aws-cloud-for-finance-professionals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6.png",
+   "page": "/product/aws-cloud-practitioner-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7.png",
+   "page": "/product/aws-developer-associate-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/9.png",
+   "page": "/product/aws-machine-learning-with-data-analytics/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-5.png",
+   "page": "/product/big-data-hadoop/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/30-1.png",
+   "page": "/product/c-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/33.png",
+   "page": "/product/capm-certification-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/12.png",
+   "page": "/product/certificate-of-cloud-auditing-knowledge/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10.png",
+   "page": "/product/certified-business-analysis-professionalcbap/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2021/08/cc.png",
+   "page": "/product/certified-data-privacy-solutions-engineer-cdpse/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/18-4.png",
+   "page": "/product/certified-kubernetes-administrator/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/46.png",
+   "page": "/product/certified-scrum-product-owner-cspo/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/34.png",
+   "page": "/product/certified-scrummaster-csm-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/20-2.png",
+   "page": "/product/cisco-certified-network-associate-v2-0-200-301-ccna/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/27.png",
+   "page": "/product/complete-vmware-vsphere-esxi-and-vcenter-administration/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/8-4.png",
+   "page": "/product/comprehensive-career-package/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/21-2.png",
+   "page": "/product/comptia-a-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/22-1.png",
+   "page": "/product/comptia-advanced-security-caspcas-004/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/23-1.png",
+   "page": "/product/comptia-cysa-cs0-003/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/24-1.png",
+   "page": "/product/comptia-network-n10-008/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/25-1.png",
+   "page": "/product/comptia-security-sy0-701-from-comptia/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-5.png",
+   "page": "/product/cucumber-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-5.png",
+   "page": "/product/data-engineering-on-microsoft-azure-dp-203/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/8-5.png",
+   "page": "/product/data-science-with-python/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/9-5.png",
+   "page": "/product/data-science-with-r-programing/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/19.png",
+   "page": "/product/data-warehousing-on-aws/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10-5.png",
+   "page": "/product/databricks-certified-data-engineer-professional/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/11-4.png",
+   "page": "/product/databricks-training-course/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/19-4.png",
+   "page": "/product/designing-and-implementing-microsoft-devops-az-400/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/20-4.png",
+   "page": "/product/docker-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/20.png",
+   "page": "/product/gcp-certification-training-course/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2.png",
+   "page": "/product/henectus-tincidunt/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/26-1.png",
+   "page": "/product/implementing-and-administering-cisco-solutions-ccna/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/47.png",
+   "page": "/product/implementing-safe-6-0-with-spc-safe-practice-consultant/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/12-4.png",
+   "page": "/product/informatica-with-big-data-bdm/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/9-4.png",
+   "page": "/product/interview-preparation-service/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/21-3.png",
+   "page": "/product/iso-27000-foundation/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/22-2.png",
+   "page": "/product/iso-iec-27001-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-4.png",
+   "page": "/product/istqb-foundation-level/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/24-2.png",
+   "page": "/product/itil-4-specialist-create-deliver-and-support/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/25-2.png",
+   "page": "/product/itil-4-specialist-drive-stakeholder-value/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/26-2.png",
+   "page": "/product/itil-4-specialist-high-velocity-it/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/27-2.png",
+   "page": "/product/itil-4-strategist-direct-plan-and-improve/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/23-2.png",
+   "page": "/product/itil-v4-foundation-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-6.png",
+   "page": "/product/java-certification-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/31.png",
+   "page": "/product/java-deep-dive/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/48.png",
+   "page": "/product/leading-safe-6-0-training-with-safe-agile/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/25.png",
+   "page": "/product/microsoft-365-administrator-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/21.png",
+   "page": "/product/microsoft-365-fundamentals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/23.png",
+   "page": "/product/microsoft-azure-administrator-certification-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/14-3.png",
+   "page": "/product/microsoft-azure-data-scientist-dp-100/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/22.png",
+   "page": "/product/microsoft-azure-developer-associate-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/24.png",
+   "page": "/product/microsoft-azure-fundamentals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/27-1.png",
+   "page": "/product/microsoft-azure-security-az-500/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/8.png",
+   "page": "/product/microsoft-certified-azure-solutions-architect-expert/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/28.png",
+   "page": "/product/microsoft-cybersecurity-architect-sc-100/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/32-1.png",
+   "page": "/product/microsoft-net-framework/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/29.png",
+   "page": "/product/microsoft-security-operations-analyst-certification-sc-200/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-6.png",
+   "page": "/product/mlops-engineering-on-aws/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-5.png",
+   "page": "/product/omnistudio-consultant/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/28-1.png",
+   "page": "/product/oracle-cloud-infrastructure-architect-associate/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/29-1.png",
+   "page": "/product/oracle-cloud-infrastructure-foundations-associate/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/15-4.png",
+   "page": "/product/pcap-certified-associate-in-python/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-5.png",
+   "page": "/product/pl-400t00-microsoft-power-platform-developer/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/woocommerce-placeholder-700x700.png",
+   "page": "/product/pmi-acp-agile-certified-practitioner/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/26.png",
+   "page": "/product/pmi-pba-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/36.png",
+   "page": "/product/pmi-rmp-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/38.png",
+   "page": "/product/prince2-7-foundation-and-practitioner/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/39.png",
+   "page": "/product/prince2-7-practitioner/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/41.png",
+   "page": "/product/prince2-foundation-practitioner-copy/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/40.png",
+   "page": "/product/prince2-foundation-practitioner/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/49.png",
+   "page": "/product/professional-scrum-master-i-psm-i/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/50.png",
+   "page": "/product/professional-scrum-master-ii-psm-ii/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/1-9.png",
+   "page": "/product/project-help-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/42.png",
+   "page": "/product/project-management-professional-pmp-pmi/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-6.png",
+   "page": "/product/react-js-training-course-with-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/3-8.png",
+   "page": "/product/resume-distribution-service/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/2-8.png",
+   "page": "/product/resume-distribution-zapper-service/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-8.png",
+   "page": "/product/resume-writing-services/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/52.png",
+   "page": "/product/safe-6-release-train-engineer-rte/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/51.png",
+   "page": "/product/safe-product-owner-product-manager-popm-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-5.png",
+   "page": "/product/salesforce-administrator-app-builder-both-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-4.png",
+   "page": "/product/salesforce-b2b-commerce-lightning/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/6-3.png",
+   "page": "/product/salesforce-certification-training-course/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-3.png",
+   "page": "/product/salesforce-certified-administrator-201/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/8-3.png",
+   "page": "/product/salesforce-cpq-configure-price-quote/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/9-3.png",
+   "page": "/product/salesforce-cpq-solution-cpq301/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/10-3.png",
+   "page": "/product/salesforce-einstein-analytics-tableau-crm/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/11-2.png",
+   "page": "/product/salesforce-financial-services-cloud-certificate/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/12-2.png",
+   "page": "/product/salesforce-health-cloud-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/13-2.png",
+   "page": "/product/salesforce-integration-architect/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/14-2.png",
+   "page": "/product/salesforce-marketing-cloud-admin/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/15-2.png",
+   "page": "/product/salesforce-platform-developer-1/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/16-2.png",
+   "page": "/product/salesforce-sales-cloud-consultant/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/17-2.png",
+   "page": "/product/sc-300-microsoft-identity-and-access-administrator/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/7-4.png",
+   "page": "/product/selenium-essentials-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/18-2.png",
+   "page": "/product/servicenow-administration-fundamentals/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/44.png",
+   "page": "/product/six-sigma-black-belt/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/45.png",
+   "page": "/product/six-sigma-green-belt/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/19-2.png",
+   "page": "/product/snowflake-certification-course/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/30.png",
+   "page": "/product/systems-security-certified-practitioner-sscp/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/16-4.png",
+   "page": "/product/tableau-certification/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/43.png",
+   "page": "/product/togaf-9-combined-level-1-and-2-training/"
+  },
+  {
+   "image": "https://fintechsolllc.com/wp-content/uploads/2025/04/4-6.png",
+   "page": "/product/ui-ux-design-certification-course/"
+  }
+ ],
+ "posts_without_featured_image": [
+  "/2021/08/26/minimalist-japanese-inspired-furniture/",
+  "/2021/08/26/the-big-design-wall-likes-pictures/",
+  "/2021/08/27/reinterprets-the-classic-bookshelf/",
+  "/2025/04/14/automated-email-funnels-for-corepay-solutions/",
+  "/2025/04/14/automation-testing-for-a-digital-lending-platform/",
+  "/2025/04/14/blockchain-for-secure-trade-settlements/",
+  "/2025/04/14/linkedin-thought-leadership-for-ledgerlink-capital/",
+  "/2025/04/14/predictive-ai-for-investment-advisory/",
+  "/2025/04/16/aws/",
+  "/2025/04/16/blackberry/",
+  "/2025/04/16/checkmarx/",
+  "/2025/04/16/cisco/",
+  "/2025/04/16/coalition/",
+  "/2025/04/16/cowbell-cyber-inc/",
+  "/2025/04/16/cysurance/",
+  "/2025/04/16/eset/",
+  "/2025/04/16/fortinet/",
+  "/2025/04/16/guardz/",
+  "/2025/04/16/is-partners-llc/",
+  "/2025/04/16/managed-engine/",
+  "/2025/04/16/palo-alto/",
+  "/2025/04/16/pingid/",
+  "/2025/04/16/ridgebot-security/",
+  "/2025/04/24/agat-software-secure-compliant-communication-for-the-digital-enterprise/",
+  "/2025/05/06/rapidfire-tools/",
+  "/2025/08/11/how-startups-can-launch-in-the-u-s-without-leaving-home-a-step-by-step-playbook/",
+  "/2025/08/22/5-red-flags-that-show-your-ai-system-needs-professional-help/",
+  "/2025/09/05/when-should-you-hire-a-cybersecurity-professional/",
+  "/2025/09/12/why-your-startup-needs-automation-testing-in-2025/",
+  "/2025/09/19/the-breakdown-of-indian-it-costs-for-founders/",
+  "/2025/09/22/what-is-domain-reputation/",
+  "/2025/09/26/how-to-start-a-us-business-from-india-in-just-1-day/",
+  "/2025/09/26/startup-growth-solutions/",
+  "/2025/10/03/can-you-really-set-up-a-us-bank-account-remotely-in-1-day/",
+  "/2025/10/03/smarter-it-systems-to-help-your-startup/",
+  "/2025/10/10/end-to-end-support-for-company-incorporation-in-global-markets/",
+  "/2025/10/17/assistance-in-obtaining-business-licenses-permits-and-regulatory-approvals/",
+  "/2025/10/24/streamlining-operational-processes-for-efficiency-and-scalability/",
+  "/2025/10/31/guidance-on-structuring-business-entities-to-optimize-growth-and-compliance/",
+  "/2025/11/07/risk-assessment-and-mitigation-strategies-for-global-expansion/",
+  "/2025/11/21/implementation-of-effective-financial-management-and-accounting-systems/",
+  "/2025/11/28/audit-and-taxation-solutions-to-ensure-compliance-with-global-regulations/",
+  "/2025/12/05/tax-planning-and-optimization-to-reduce-liabilities-and-improve-cash-flow/",
+  "/2025/12/12/financial-tools-to-keep-startup-books-clean/",
+  "/2025/12/19/stay-financially-steady-with-smart-risk-planning/",
+  "/2025/12/26/take-your-startup-global-with-smart-systems/",
+  "/2026/01/02/u-s-soft-launch-with-smarter-market-research/",
+  "/2026/01/09/compliant-and-protected-when-launching-in-the-u-s/",
+  "/2026/01/14/startup-systems-ready-with-smart-it-support/",
+  "/2026/01/16/how-startups-handle-us-banking-and-trade/",
+  "/2026/01/23/enter-new-markets-and-grow-abroad/",
+  "/2026/01/30/how-startups-can-get-investor-ready/",
+  "/2026/02/06/choose-an-ai-development-partner-in-india/",
+  "/2026/02/13/u-s-banking-setup-for-international-founders-a-practical-launch-guide/",
+  "/2026/02/13/u-s-startup-bank-account-setup-guide/",
+  "/2026/02/18/summer-2026-guide-to-u-s-incorporation-for-indian-fintech-startups/",
+  "/2026/02/22/2026-u-s-incorporation-checklist-for-startups/",
+  "/2026/03/01/u-s-incorporation-guide-for-global-startups-2026/",
+  "/2026/03/08/spring-2026-ai-rollout-strategy-for-startups/",
+  "/2026/03/15/remote-business-incorporation-usa-first-time-founder-faq/",
+  "/2026/03/22/summer-2026-blueprint-for-startup-tax-and-bookkeeping-in-the-usa/",
+  "/2026/03/29/spring-2026-checklist-for-cybersecurity-services-in-india/",
+  "/2026/04/05/remote-us-bank-setup-for-global-startup/",
+  "/2026/04/12/reduce-it-spend-2026-optimization-plan/",
+  "/2026/04/19/automation-testing-services-india-launch-ready-qa-for-u-s-bound-startups/",
+  "/2026/04/26/spring-2026-guide-to-us-business/",
+  "/2026/05/03/funding-advisory-for-startups-in-the-usa/",
+  "/2026/05/10/summer-2026-readiness-guide-for-cybersecurity-consulting-in-india/",
+  "/2026/05/17/summer-2026-checklist-for-remote-u-s-business-incorporation/",
+  "/2026/05/24/summer-2026-playbook-for-global-startup-cybersecurity-in-india/",
+  "/2026/05/31/summer-plan-for-remote-us-bank-account/",
+  "/2026/06/07/common-remote-u-s-incorporation-mistakes-global-startups-make/",
+  "/2026/06/14/post-incorporation-recovery-plan-fix-your-broken-u-s-setup/",
+  "/2026/06/21/remote-us-incorporation-stalls-startup-banking/",
+  "/2026/06/28/why-global-startups-should-rethink-remote-u-s-incorporation/",
+  "/2026/07/05/after-setup-keeping-a-u-s-account-compliant-for-global-founders/"
+ ],
+ "banner_titles_dropped": [
+  {
+   "html": "<h2>Amazon Web  Services</h2>",
+   "page": "/2025/04/16/aws/"
+  },
+  {
+   "html": "<h2>Blackberry</h2>",
+   "page": "/2025/04/16/blackberry/"
+  },
+  {
+   "html": "<h2>Checkmarx</h2>",
+   "page": "/2025/04/16/checkmarx/"
+  },
+  {
+   "html": "<h2>Cisco</h2>",
+   "page": "/2025/04/16/cisco/"
+  },
+  {
+   "html": "<h2>Coalition</h2>",
+   "page": "/2025/04/16/coalition/"
+  },
+  {
+   "html": "<h2>Cowbell Cyber Inc.</h2>",
+   "page": "/2025/04/16/cowbell-cyber-inc/"
+  },
+  {
+   "html": "<h2>Cysurance</h2>",
+   "page": "/2025/04/16/cysurance/"
+  },
+  {
+   "html": "<h2>ESET</h2>",
+   "page": "/2025/04/16/eset/"
+  },
+  {
+   "html": "<h2>Fortinet</h2>",
+   "page": "/2025/04/16/fortinet/"
+  },
+  {
+   "html": "<h2>Guardz</h2>",
+   "page": "/2025/04/16/guardz/"
+  },
+  {
+   "html": "<h2>IS Partners LLC</h2>",
+   "page": "/2025/04/16/is-partners-llc/"
+  },
+  {
+   "html": "<h2>ISMS Online</h2>",
+   "page": "/2025/04/16/managed-engine/"
+  },
+  {
+   "html": "<h2>Palo Alto</h2>",
+   "page": "/2025/04/16/palo-alto/"
+  },
+  {
+   "html": "<h2>PingID</h2>",
+   "page": "/2025/04/16/pingid/"
+  },
+  {
+   "html": "<h2>Ridgebot Security</h2>",
+   "page": "/2025/04/16/ridgebot-security/"
+  },
+  {
+   "html": "<h2>Secureframe</h2>",
+   "page": "/2025/04/16/secureframe/"
+  },
+  {
+   "html": "<h2>Skybox Security</h2>",
+   "page": "/2025/04/16/skybox-security/"
+  },
+  {
+   "html": "<h2>SonarQube</h2>",
+   "page": "/2025/04/16/sonarcube/"
+  },
+  {
+   "html": "<h2>Splunk</h2>",
+   "page": "/2025/04/16/splunk/"
+  },
+  {
+   "html": "<h2>Trellix</h2>",
+   "page": "/2025/04/16/trellix/"
+  },
+  {
+   "html": "<h2>Vanta</h2>",
+   "page": "/2025/04/16/vanta/"
+  },
+  {
+   "html": "<h2>AGAT Softwares</h2>",
+   "page": "/2025/04/24/agat-software-secure-compliant-communication-for-the-digital-enterprise/"
+  },
+  {
+   "html": "<h2>Timus Networks</h2>",
+   "page": "/2025/04/24/timus-networks-simplified-zero-trust-security-for-the-modern-smb/"
+  },
+  {
+   "html": "<h2>Rapidfire Tools</h2>",
+   "page": "/2025/05/06/rapidfire-tools/"
+  },
+  {
+   "html": "<h2>Our Partners</h2>",
+   "page": "/our-partners/"
+  },
+  {
+   "html": "<h2>AI, blockchain, QA and Automation Testing</h2>",
+   "page": "/ai-blockchain-qa-and-automation-testing/"
+  },
+  {
+   "html": "<h2>Digital Marketing Strategy and Campaign Execution</h2>",
+   "page": "/digital-marketing-strategy-and-campaign-execution/"
+  },
+  {
+   "html": "<h2>Enterprise IT Cost Reduction &amp; Reorganization</h2>",
+   "page": "/enterprise-it-cost-reduction-enterprise-reorganization/"
+  },
+  {
+   "html": "<h2>Dubai Real Estate Asset Management</h2>",
+   "page": "/real-estate-asset-management/"
+  },
+  {
+   "html": "<h2>Compliance Solutions</h2>",
+   "page": "/compliance-solutions/"
+  },
+  {
+   "html": "<h2>Empowering Digital Transformation Through Scalable IT Solutions</h2>",
+   "page": "/it-services/"
+  },
+  {
+   "html": "<h2>Managed Service Provider(MSP)</h2>",
+   "page": "/managed-service-provider/"
+  }
+ ],
+ "thin_posts": [
+  {
+   "path": "/2025/06/17/tawk-to/",
+   "words": "0"
+  }
+ ],
+ "forms": [
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Company Name', 'Job Title', 'No. of Employees', 'Country/Region', 'Phone No.', 'Message']",
+   "kind": "contact",
+   "page": "/contact-us/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Company Name', 'Phone No.', 'No. of Employees', 'Job Title', 'Email', 'Requirement', 'Budget(Min. $1000)', 'Scope', 'Yes', 'No', 'Deadline(Weeks)']",
+   "kind": "quote",
+   "page": "/get-quote/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Contact No.', 'Company Name', 'Website']",
+   "kind": "partner",
+   "page": "/be-our-partner/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Phase', 'Problem Definition', 'Target Audience', 'Value Proposition', 'Unique Selling Point (USP)', 'Supporting Legal Frameworks', 'Communication Channels', 'Budget Constraints', 'Requirement', 'Scope', 'Yes', 'No', 'Budget(Min. $1000)']",
+   "kind": "quote",
+   "page": "/mvp-development/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Phone No.', 'Message']",
+   "kind": "contact",
+   "page": "/business-consulting/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Requirement', 'Role - Based Access Control', 'Description', 'Budget(Min. $1000)', 'Scope', 'Yes', 'No']",
+   "kind": "quote",
+   "page": "/cybersecurity-access-management/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Requirement', 'Vulenerability Testing', 'Penetration Testing', 'Compliance Audit', '', 'Description', 'Scope', 'Yes', 'No', 'Budget(Min. $1000)']",
+   "kind": "quote",
+   "page": "/cybersecurity-assessments/"
+  },
+  {
+   "fields": "['First Name', 'Last Name', 'Email', 'Phase', 'Problem Definition', 'Target Audience', 'Value Proposition', 'Unique Selling Point (USP)', 'Supporting Legal Frameworks', 'Communication Channels', 'Budget Constraints', 'Requirement', 'Scope', 'Yes', 'No', 'Budget(Min. $1000)']",
+   "kind": "quote",
+   "page": "/rapid-prototyping/"
+  }
+ ],
+ "skipped_widgets": [
+  {
+   "page": "/contact-us/",
+   "text": "",
+   "widget": "google_maps"
+  }
+ ],
+ "generic_widgets": [
+  {
+   "page": "/digital-marketing-strategy-and-campaign-execution/",
+   "widget": "shortcode"
+  },
+  {
+   "page": "/enterprise-it-cost-reduction-enterprise-reorganization/",
+   "widget": "shortcode"
+  },
+  {
+   "page": "/cybersecurity-access-management/",
+   "widget": "shortcode"
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+[
+ {
+  "src": "/assets/blog/2021-08-app.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2021/08/app.png",
+  "recovered_file": "assets/images/uploads/2021/08/app.png"
+ },
+ {
+  "src": "/assets/blog/2021-08-bank.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2021/08/bank.png",
+  "recovered_file": "assets/images/uploads/2021/08/bank.png"
+ },
+ {
+  "src": "/assets/blog/2021-08-clinic.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2021/08/clinic.png",
+  "recovered_file": "assets/images/uploads/2021/08/clinic.png"
+ },
+ {
+  "src": "/assets/blog/2021-08-ecom.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2021/08/ecom.png",
+  "recovered_file": "assets/images/uploads/2021/08/ecom.png"
+ },
+ {
+  "src": "/assets/blog/2021-08-zappos.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2021/08/zappos.png",
+  "recovered_file": "assets/images/uploads/2021/08/zappos.png"
+ },
+ {
+  "src": "/assets/blog/2025-04-assas.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/assas.png",
+  "recovered_file": "assets/images/uploads/2025/04/assas.png"
+ },
+ {
+  "src": "/assets/fonts/lato-400.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/lato-400.woff2"
+ },
+ {
+  "src": "/assets/fonts/lato-700.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/lato-700.woff2"
+ },
+ {
+  "src": "/assets/fonts/poppins-400.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/poppins-400.woff2"
+ },
+ {
+  "src": "/assets/fonts/poppins-600.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/poppins-600.woff2"
+ },
+ {
+  "src": "/assets/fonts/ubuntu-400.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfw72.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfw72.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/ubuntu-400.woff2"
+ },
+ {
+  "src": "/assets/fonts/ubuntu-500.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jsGyN.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jsGyN.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/ubuntu-500.woff2"
+ },
+ {
+  "src": "/assets/fonts/ubuntu-700.woff2",
+  "width": null,
+  "height": null,
+  "original": "https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjsGyN.woff2",
+  "recovered_file": "assets/fonts/fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjsGyN.woff2",
+  "note": "latin subset; the app loads it with next/font/local from src/app/fonts/ubuntu-700.woff2"
+ },
+ {
+  "src": "/assets/images/2025-03-2-2.png",
+  "width": 1143,
+  "height": 156,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/2-2.png",
+  "recovered_file": "assets/images/uploads/2025/03/2-2.png"
+ },
+ {
+  "src": "/assets/images/2025-04-fintech.png",
+  "width": 580,
+  "height": 580,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/fintech.png",
+  "recovered_file": "assets/images/uploads/2025/04/fintech.png"
+ },
+ {
+  "src": "/assets/logos/2025-03-logo-no-bg.png",
+  "width": 384,
+  "height": 100,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/logo-no-bg.png",
+  "recovered_file": "assets/logos/uploads/2025/03/logo-no-bg.png"
+ },
+ {
+  "src": "/assets/logos/2025-03-logo.jpg",
+  "width": 1920,
+  "height": 500,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/logo.jpg",
+  "recovered_file": "assets/logos/uploads/2025/03/logo.jpg"
+ },
+ {
+  "src": "/assets/partners/2025-04-12-1.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/12-1.png",
+  "recovered_file": "assets/images/uploads/2025/04/12-1.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-20-1.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/20-1.png",
+  "recovered_file": "assets/images/uploads/2025/04/20-1.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-21-1.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/21-1.png",
+  "recovered_file": "assets/images/uploads/2025/04/21-1.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-5-3.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/5-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/5-3.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-8-2.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/8-2.png",
+  "recovered_file": "assets/images/uploads/2025/04/8-2.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-9-2.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/9-2.png",
+  "recovered_file": "assets/images/uploads/2025/04/9-2.png"
+ },
+ {
+  "src": "/assets/partners/2025-04-timus.png",
+  "width": 1024,
+  "height": 720,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/timus.png",
+  "recovered_file": "assets/images/uploads/2025/04/timus.png"
+ },
+ {
+  "src": "/assets/partners/2025-06-tawkto.jpg",
+  "width": 653,
+  "height": 340,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/06/tawkto.jpg",
+  "recovered_file": "assets/images/uploads/2025/06/tawkto.jpg"
+ },
+ {
+  "src": "/assets/services/2025-03-1-2.png",
+  "width": 600,
+  "height": 400,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/03/1-2.png",
+  "recovered_file": "assets/images/uploads/2025/03/1-2.png"
+ },
+ {
+  "src": "/assets/services/2025-04-1.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/1.png",
+  "recovered_file": "assets/images/uploads/2025/04/1.png"
+ },
+ {
+  "src": "/assets/services/2025-04-11.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/11.png",
+  "recovered_file": "assets/images/uploads/2025/04/11.png"
+ },
+ {
+  "src": "/assets/services/2025-04-13.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/13.png",
+  "recovered_file": "assets/images/uploads/2025/04/13.png"
+ },
+ {
+  "src": "/assets/services/2025-04-14.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/14.png",
+  "recovered_file": "assets/images/uploads/2025/04/14.png"
+ },
+ {
+  "src": "/assets/services/2025-04-15-3.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/15-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/15-3.png"
+ },
+ {
+  "src": "/assets/services/2025-04-16-3.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/16-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/16-3.png"
+ },
+ {
+  "src": "/assets/services/2025-04-16.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/16.png",
+  "recovered_file": "assets/images/uploads/2025/04/16.png"
+ },
+ {
+  "src": "/assets/services/2025-04-17-3.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/17-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/17-3.png"
+ },
+ {
+  "src": "/assets/services/2025-04-17.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/17.png",
+  "recovered_file": "assets/images/uploads/2025/04/17.png"
+ },
+ {
+  "src": "/assets/services/2025-04-18-3.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/18-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/18-3.png"
+ },
+ {
+  "src": "/assets/services/2025-04-19-3.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/19-3.png",
+  "recovered_file": "assets/images/uploads/2025/04/19-3.png"
+ },
+ {
+  "src": "/assets/services/2025-04-aas.png",
+  "width": 300,
+  "height": 300,
+  "original": "https://fintechsolllc.com/wp-content/uploads/2025/04/aas.png",
+  "recovered_file": "assets/images/uploads/2025/04/aas.png"
+ }
+]
