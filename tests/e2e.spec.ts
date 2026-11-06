@@ -6,6 +6,7 @@ const PAGES = [
   "/",
   "/about-us-3/",
   "/services/",
+  "/technology-business-solutions/",
   "/mvp-development/",
   "/industry/",
   "/our-partners/",
@@ -74,6 +75,86 @@ test.describe("homepage", () => {
     expect(idx.every((i) => i >= 0), `missing: ${order.filter((_, k) => idx[k] < 0)}`).toBe(true);
     expect([...idx].sort((a, b) => a - b)).toEqual(idx);
     await expect(page.locator("main a[href='/mvp-development/']").first()).toBeVisible();
+  });
+
+  test("Why Choose 'Learn More' links to Our Solutions", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator("main").getByRole("link", { name: "Learn More", exact: true })).toHaveAttribute("href", "/technology-business-solutions/");
+  });
+});
+
+test.describe("technology & business solutions page", () => {
+  const PATH = "/technology-business-solutions/";
+  const SERVICES = [
+    ["Global Startup Consulting Services", "/global-startup-consulting-services/"],
+    ["MVP Development and Rapid Prototyping", "/mvp-development/"],
+    ["Cybersecurity Assessments and IAM Implementations", "/cybersecurity/"],
+    ["Digital Marketing Strategy and Campaign Execution", "/digital-marketing-strategy-and-campaign-execution/"],
+    ["AI, Blockchain, QA and Automation Testing", "/ai-blockchain-qa-and-automation-testing/"],
+    ["IT Training, Continuous Learning, Skill Development and Exam Preparation", "/shop/"],
+    ["Onshore / Back Office Solutions", "/back-office-and-fintech-solutions/"],
+    ["Enterprise IT Cost Reduction & Reorganization", "/enterprise-it-cost-reduction-enterprise-reorganization/"],
+    ["Real Estate Asset Management", "/real-estate-asset-management/"],
+  ];
+
+  test("has the title, H1, breadcrumb, sections, services and SEO metadata", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
+    page.on("pageerror", (e) => errors.push(String(e)));
+    const res = await page.goto(PATH);
+    expect(res?.status()).toBe(200);
+    await expect(page).toHaveTitle("Technology & Business Solutions – Fintech Solllc");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Technology & Business Solutions");
+    const crumbs = page.getByRole("navigation", { name: "Breadcrumb" });
+    await expect(crumbs.getByRole("link", { name: "Home" })).toHaveAttribute("href", "/");
+    await expect(crumbs.locator("[aria-current='page']")).toHaveText("Our Solutions");
+
+    const h2 = (await page.locator("main h2").allInnerTexts()).map((t) => t.trim());
+    for (const h of ["Our Services", "Industries We Serve", "FinTech Labs: Driving Innovation and Digital Transformation", "Contact Us"])
+      expect(h2, h).toContain(h);
+    const h3 = (await page.locator("main h3").allInnerTexts()).map((t) => t.trim());
+    for (const [name, href] of SERVICES) {
+      expect(h3, name).toContain(name);
+      await expect(page.locator(`main a[href='${href}']`).first()).toBeVisible();
+    }
+    for (const i of ["Startups & Small Enterprises", "Legal & Financial Services", "Healthcare & Insurance"])
+      await expect(page.locator("main").getByText(i, { exact: true })).toBeVisible();
+    await expect(page.locator("main").getByText("HIPAA Compliance:")).toBeVisible();
+    // AI offerings live on their own page; this page only points there
+    await expect(page.locator("main a[href='/ai-solutions/']")).toHaveText("AI Solutions");
+    await expect(page.locator("main").getByText("Agentic AI", { exact: false })).toHaveCount(0);
+    await expect(page.locator("main a[href='/get-quote/']")).toHaveCount(1);
+    await expect(page.locator("main a[href='/contact-us/']")).toHaveCount(1);
+
+    const site = "https://fintechsolllc.com";
+    await expect(page.locator("link[rel='canonical']")).toHaveAttribute("href", `${site}${PATH}`);
+    await expect(page.locator("meta[property='og:title']")).toHaveAttribute("content", "Technology & Business Solutions – Fintech Solllc");
+    await expect(page.locator("meta[name='description']")).toHaveAttribute("content", /^Explore FintechSol LLC's technology and business solutions/);
+    expect(errors).toEqual([]);
+  });
+
+  test("'Our Solutions' appears once in the desktop menu and navigates", async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/");
+    const nav = page.getByRole("navigation", { name: "Main" });
+    await expect(nav.getByRole("link", { name: "Our Solutions", exact: true })).toHaveCount(1);
+    await nav.getByRole("link", { name: "Our Solutions", exact: true }).click();
+    await expect(page).toHaveURL(/\/technology-business-solutions\/$/);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Technology & Business Solutions");
+  });
+
+  test("'Our Solutions' is in the mobile menu", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/");
+    await page.getByRole("button", { name: "Open menu" }).click();
+    const menu = page.getByRole("navigation", { name: "Mobile" });
+    await menu.getByRole("link", { name: "Our Solutions", exact: true }).click();
+    await expect(page).toHaveURL(/\/technology-business-solutions\/$/);
+  });
+
+  test("is listed in the sitemap once", async ({ request }) => {
+    const xml = await (await request.get("/sitemap.xml")).text();
+    expect(xml.match(/\/technology-business-solutions\/<\/loc>/g)?.length).toBe(1);
   });
 });
 

@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     entry("/", 1),
     ...allPagePaths().map((p) => entry(p, 0.8)),
+    entry("/technology-business-solutions/", 0.8),
     entry("/blog/", 0.7),
     ...pageNumbers(posts.length, POSTS_PER_PAGE).map((n) => entry(`/blog/page/${n}/`, 0.3)),
     ...categories.map((c) => entry(`/category/${c.slug}/`, 0.4)),
