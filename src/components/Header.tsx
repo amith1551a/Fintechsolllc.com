@@ -1,17 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import solutions from "@/content/technology-business-solutions.json";
 import { site, type NavItem } from "@/lib/content";
 import DesktopNavigation from "./DesktopNavigation";
 import MobileNavigation from "./MobileNavigation";
 import { Mail, MapPin, Phone, SocialIcon } from "./Icons";
 
-/** Original menu, with the service list moved from "Home" to "Services" (same items and labels). */
+/** Added after the original menu was recovered; kept here so `npm run migrate` (which rewrites site.json) keeps it. */
+const OUR_SOLUTIONS: NavItem = { label: solutions.navLabel, href: solutions.path };
+
+/** Original menu, with the service list moved from "Home" to "Services" (same items and labels), plus "Our Solutions". */
 export function navigation(): NavItem[] {
   const home = site.nav.find((n) => n.href === "/");
-  return site.nav.map((n) => {
-    if (n.href === "/") return { label: n.label, href: n.href };
-    if (n.href === "/services/" && home?.children) return { ...n, children: home.children };
-    return n;
+  return site.nav.flatMap((n) => {
+    if (n.href === "/") return [{ label: n.label, href: n.href }];
+    if (n.href === "/services/") return [home?.children ? { ...n, children: home.children } : n, OUR_SOLUTIONS];
+    return n.href === OUR_SOLUTIONS.href ? [] : [n];
   });
 }
 

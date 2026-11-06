@@ -1,13 +1,17 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { site } from "@/lib/content";
 import { HexPattern } from "./Icons";
 
 export default function CTASection({
   title = "Let’s help you get started.",
   text = "You can fill out the form or click to schedule a meeting.",
+  children,
 }: {
   title?: string;
   text?: string;
+  /** optional extra content under the text (e.g. contact details) */
+  children?: ReactNode;
 }) {
   return (
     <section className="container-site py-16">
@@ -16,6 +20,7 @@ export default function CTASection({
         <div className="max-w-2xl">
           <h2 className="text-2xl font-bold sm:text-3xl">{title}</h2>
           <p className="mt-3 text-white/80">{text}</p>
+          {children}
         </div>
         <div className="mt-8 flex flex-wrap gap-3 lg:mt-0 lg:shrink-0">
           <Link href={site.ctaHref} className="btn-primary">

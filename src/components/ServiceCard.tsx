@@ -6,11 +6,14 @@ export default function ServiceCard({
   href,
   description,
   index,
+  clamp = true,
 }: {
   title: string;
   href: string;
   description?: string;
   index: number;
+  /** clip the description to 4 lines (for clipped meta descriptions); off for complete hand-written text */
+  clamp?: boolean;
 }) {
   return (
     <Link
@@ -24,7 +27,7 @@ export default function ServiceCard({
         {String(index).padStart(2, "0")}
       </span>
       <h3 className="mt-5 text-xl font-semibold leading-snug text-navy">{title}</h3>
-      {description && <p className="mt-3 line-clamp-4 text-sm leading-6 text-muted">{description}</p>}
+      {description && <p className={`mt-3 text-sm leading-6 text-muted ${clamp ? "line-clamp-4" : ""}`}>{description}</p>}
       <span className="mt-auto flex items-center gap-2 pt-6 text-sm font-semibold text-brand-600">
         Learn more <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
       </span>

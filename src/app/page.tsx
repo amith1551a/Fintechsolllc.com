@@ -68,7 +68,7 @@ export default function HomePage() {
           <div>
             <SectionHeading title={home.whyChoose.heading} align="left" tone="light" description={about?.description} />
           </div>
-          <Link href="/about-us-3/" className="btn-outline">
+          <Link href="/technology-business-solutions/" className="btn-outline">
             {home.whyChoose.buttonLabel}
           </Link>
         </div>
