@@ -7,11 +7,14 @@ export default function CTASection({
   title = "Let’s help you get started.",
   text = "You can fill out the form or click to schedule a meeting.",
   children,
+  actions,
 }: {
   title?: string;
   text?: string;
   /** optional extra content under the text (e.g. contact details) */
   children?: ReactNode;
+  /** replaces the default Get Quote / Contact us buttons */
+  actions?: ReactNode;
 }) {
   return (
     <section className="container-site py-16">
@@ -23,12 +26,16 @@ export default function CTASection({
           {children}
         </div>
         <div className="mt-8 flex flex-wrap gap-3 lg:mt-0 lg:shrink-0">
-          <Link href={site.ctaHref} className="btn-primary">
-            {site.ctaLabel}
-          </Link>
-          <Link href="/contact-us/" className="btn-outline">
-            Contact us
-          </Link>
+          {actions ?? (
+            <>
+              <Link href={site.ctaHref} className="btn-primary">
+                {site.ctaLabel}
+              </Link>
+              <Link href="/contact-us/" className="btn-outline">
+                Contact us
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </section>

@@ -76,3 +76,42 @@ export function HexPattern({ className = "" }: P) {
     </svg>
   );
 }
+
+/** Outline icons for the homepage capability groups (24px grid, stroke follows currentColor). */
+const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 1.6, strokeLinecap: "round", strokeLinejoin: "round" } as const;
+
+export function SparkIcon({ className = "h-6 w-6" }: P) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" aria-hidden="true" {...stroke}>
+      <rect x="6" y="6" width="12" height="12" rx="2" />
+      <path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4M10 10h4v4h-4z" />
+    </svg>
+  );
+}
+
+export function ShieldIcon({ className = "h-6 w-6" }: P) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" aria-hidden="true" {...stroke}>
+      <path d="M12 2.5 4 5.5v6c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10v-6l-8-3Z" />
+      <path d="m8.5 12 2.5 2.5 4.5-5" />
+    </svg>
+  );
+}
+
+export function CloudIcon({ className = "h-6 w-6" }: P) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" aria-hidden="true" {...stroke}>
+      <path d="M7 18.5h10.5a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.6 9.1 4.75 4.75 0 0 0 7 18.5Z" />
+      <path d="m12 16.5v-6M9.5 13l2.5-2.5 2.5 2.5" />
+    </svg>
+  );
+}
+
+export function LayersIcon({ className = "h-6 w-6" }: P) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" aria-hidden="true" {...stroke}>
+      <path d="m12 3 9 5-9 5-9-5 9-5Z" />
+      <path d="m3 13 9 5 9-5" />
+    </svg>
+  );
+}

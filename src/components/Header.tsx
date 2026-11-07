@@ -6,16 +6,18 @@ import DesktopNavigation from "./DesktopNavigation";
 import MobileNavigation from "./MobileNavigation";
 import { Mail, MapPin, Phone, SocialIcon } from "./Icons";
 
-/** Added after the original menu was recovered; kept here so `npm run migrate` (which rewrites site.json) keeps it. */
-const OUR_SOLUTIONS: NavItem = { label: solutions.navLabel, href: solutions.path };
+/**
+ * Header item that replaces the original "Services" menu: no submenu, links to the Technology & Business Solutions
+ * page (which lists all nine services). Defined here so `npm run migrate` (which rewrites site.json) keeps it.
+ */
+const BUSINESS_SERVICES: NavItem = { label: "Business Services", href: solutions.path };
 
-/** Original menu, with the service list moved from "Home" to "Services" (same items and labels), plus "Our Solutions". */
+/** Original menu with "Services" (and the service list the archive kept under "Home") replaced by BUSINESS_SERVICES. */
 export function navigation(): NavItem[] {
-  const home = site.nav.find((n) => n.href === "/");
   return site.nav.flatMap((n) => {
     if (n.href === "/") return [{ label: n.label, href: n.href }];
-    if (n.href === "/services/") return [home?.children ? { ...n, children: home.children } : n, OUR_SOLUTIONS];
-    return n.href === OUR_SOLUTIONS.href ? [] : [n];
+    if (n.href === "/services/") return [BUSINESS_SERVICES];
+    return n.href === BUSINESS_SERVICES.href ? [] : [n];
   });
 }
 
