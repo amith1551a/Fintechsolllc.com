@@ -93,23 +93,23 @@
  "interlude": {
   "eyebrow": "From Experimentation to Outcomes",
   "heading": "Faster AI adoption starts with getting the foundations right.",
-  "text": "Many organizations have AI experiments. Far fewer have AI in production delivering measurable value. We close that gap with disciplined engineering and integration with the systems you already run.",
+  "text": "Many organizations have AI experiments. Far fewer have AI in production delivering measurable value. We help you move from experimentation to business transformation at speed, with disciplined engineering, AI-ready data and integration with the systems you already run.",
   "steps": [
    {
-    "title": "Data preparation and readiness",
-    "text": "Integrate and organize the data your models and automations depend on, so they work from information you can trust."
+    "title": "Data preparation and AI readiness",
+    "text": "Assess, integrate and organize the enterprise data your models and automations depend on, so AI works from information you can trust."
    },
    {
     "title": "Engineering precision",
-    "text": "Agile delivery, automated QA and security testing at every stage, so releases are fast without being fragile."
+    "text": "Agile delivery with automated QA, performance and security testing at every stage, so systems are reliable at release and built to scale."
    },
    {
     "title": "Intelligent automation and integration",
     "text": "Connect AI and automation to existing applications and workflows through APIs and cloud-native services."
    },
    {
-    "title": "Measurable efficiency at scale",
-    "text": "Agree on success measures up front, track them through delivery and scale what proves its value."
+    "title": "Measurable efficiency and outcomes",
+    "text": "Agree on success measures up front, track platform efficiency through delivery and scale what proves its business value."
    }
   ]
  },
@@ -151,9 +151,14 @@
  },
  "contact": {
   "heading": "Build Your Next Technology Advantage.",
-  "text": "Let’s discuss your business challenges, technology priorities and opportunities for transformation.",
+  "text": "Request a technical architecture evaluation. Our team will review your existing technology architecture with you and identify where to act first.",
+  "focus": [
+   "AI readiness",
+   "Cybersecurity posture",
+   "Modernization opportunities"
+  ],
   "primary": {
-   "label": "Request a Technology Consultation",
+   "label": "Request an Architecture Evaluation",
    "href": "/get-quote/"
   },
   "secondary": {

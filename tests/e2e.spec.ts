@@ -94,7 +94,7 @@ test.describe("homepage", () => {
     const main = page.locator("main");
     await expect(main.getByRole("link", { name: "Let’s Talk About Your Technology Needs" })).toHaveAttribute("href", "/contact-us/");
     await expect(main.getByRole("link", { name: "Explore Our Solutions" })).toHaveAttribute("href", "/technology-business-solutions/");
-    await expect(main.getByRole("link", { name: "Request a Technology Consultation" })).toHaveAttribute("href", "/get-quote/");
+    await expect(main.getByRole("link", { name: "Request an Architecture Evaluation" })).toHaveAttribute("href", "/get-quote/");
     await expect(main.getByRole("link", { name: "Contact Our Team" })).toHaveAttribute("href", "/contact-us/");
     for (const href of ["/technology-business-solutions/", "/ai-blockchain-qa-and-automation-testing/", "https://training.fintechsolllc.com/", "/industry/", "/our-partners/"])
       await expect(main.locator(`a[href='${href}']`).first()).toBeVisible();
@@ -120,7 +120,7 @@ test.describe("technology & business solutions page", () => {
     ["Cybersecurity Assessments and IAM Implementations", "/cybersecurity/"],
     ["Digital Marketing Strategy and Campaign Execution", "/digital-marketing-strategy-and-campaign-execution/"],
     ["AI, Blockchain, QA and Automation Testing", "/ai-blockchain-qa-and-automation-testing/"],
-    ["IT Training, Continuous Learning, Skill Development and Exam Preparation", "/shop/"],
+    ["IT Training, Continuous Learning, Skill Development and Exam Preparation", "https://training.fintechsolllc.com/"],
     ["Onshore / Back Office Solutions", "/back-office-and-fintech-solutions/"],
     ["Enterprise IT Cost Reduction & Reorganization", "/enterprise-it-cost-reduction-enterprise-reorganization/"],
     ["Real Estate Asset Management", "/real-estate-asset-management/"],
