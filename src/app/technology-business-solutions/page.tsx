@@ -37,7 +37,7 @@ export default function TechnologyBusinessSolutionsPage() {
               "@type": "ListItem",
               position: i + 1,
               name: s.title,
-              url: abs(s.href),
+              url: s.href.startsWith("/") ? abs(s.href) : s.href,
             })),
           },
         }}

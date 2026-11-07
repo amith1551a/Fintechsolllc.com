@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import BlogCard from "@/components/BlogCard";
 import CTASection from "@/components/CTASection";
 import HeroSection from "@/components/HeroSection";
-import { ArrowRight, CloudIcon, LayersIcon, ShieldIcon, SparkIcon } from "@/components/Icons";
+import { ArrowRight, CloudIcon, HexPattern, LayersIcon, ShieldIcon, SparkIcon } from "@/components/Icons";
 import JsonLd from "@/components/JsonLd";
 import PartnerGrid from "@/components/PartnerGrid";
 import SectionHeading from "@/components/SectionHeading";
@@ -149,22 +149,22 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="bg-surface">
-        <div className="container-site grid gap-12 py-20 lg:grid-cols-2 lg:gap-16">
-          <div className="lg:sticky lg:top-32 lg:self-start">
-            <SectionHeading eyebrow={interlude.eyebrow} title={interlude.heading} align="left" />
-            <p className="mt-6 text-lg leading-8 text-muted">{interlude.text}</p>
+      <section className="relative isolate overflow-hidden bg-navy text-white">
+        <HexPattern className="absolute -bottom-32 -left-24 -z-10 h-[420px] w-[420px] text-brand/15" />
+        <div className="container-site py-20 lg:py-24">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-end lg:gap-16">
+            <SectionHeading eyebrow={interlude.eyebrow} title={interlude.heading} align="left" tone="light" />
+            <p className="text-lg leading-8 text-white/75">{interlude.text}</p>
           </div>
-          <ol className="space-y-4">
+          <ol className="mt-14 grid gap-px overflow-hidden rounded-2xl bg-white/10 sm:grid-cols-2 lg:grid-cols-4">
             {interlude.steps.map((s, i) => (
-              <li key={s.title} className="flex gap-5 rounded-2xl border border-line bg-white p-6">
-                <span className="font-[family-name:var(--font-heading)] text-3xl font-bold leading-none text-brand" aria-hidden="true">
+              <li key={s.title} className="bg-navy p-7">
+                <span className="block h-1 w-10 rounded-full bg-amber" aria-hidden="true" />
+                <span className="mt-5 block font-[family-name:var(--font-heading)] text-3xl font-bold leading-none text-brand" aria-hidden="true">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <div>
-                  <h3 className="text-lg font-semibold text-navy">{s.title}</h3>
-                  <p className="mt-2 text-muted">{s.text}</p>
-                </div>
+                <h3 className="mt-4 text-lg font-semibold text-white">{s.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-white/70">{s.text}</p>
               </li>
             ))}
           </ol>
@@ -239,7 +239,15 @@ export default function HomePage() {
             </Link>
           </>
         }
-      />
+      >
+        <ul className="mt-5 flex flex-wrap gap-2" aria-label="What the evaluation covers">
+          {contact.focus.map((f) => (
+            <li key={f} className="rounded-full border border-white/20 bg-white/5 px-3.5 py-1.5 text-sm font-medium text-white/90">
+              {f}
+            </li>
+          ))}
+        </ul>
+      </CTASection>
     </>
   );
 }
