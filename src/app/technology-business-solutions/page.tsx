@@ -45,12 +45,17 @@ export default function TechnologyBusinessSolutionsPage() {
       <HeroSection
         title={solutions.title}
         breadcrumbs={[{ label: solutions.navLabel }]}
-        description={solutions.overview[0]}
+        description={solutions.description}
       />
 
       <section className="bg-white">
-        <div className="container-site py-12">
-          <p className="mx-auto max-w-3xl text-center text-base leading-7 text-muted">{solutions.overview[1]}</p>
+        <div className="container-site py-16">
+          <SectionHeading title={solutions.overviewHeading} />
+          <div className="mx-auto mt-8 max-w-3xl space-y-4 text-center text-base leading-7 text-muted">
+            {solutions.overview.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -64,10 +69,9 @@ export default function TechnologyBusinessSolutionsPage() {
           </div>
           <p className="mt-10 text-center text-sm text-muted">
             {solutions.aiNote.text}{" "}
-            {/* plain anchor: the AI Solutions page is not built yet, so avoid prefetching it */}
-            <a href={solutions.aiNote.href} className="font-semibold text-brand-600 hover:text-navy">
+            <Link href={solutions.aiNote.href} className="font-semibold text-brand-600 hover:text-navy">
               {solutions.aiNote.label}
-            </a>
+            </Link>
           </p>
         </div>
       </section>
@@ -101,7 +105,7 @@ export default function TechnologyBusinessSolutionsPage() {
             />
           )}
           <div>
-            <SectionHeading title={home.labs.heading} align="left" />
+            <SectionHeading eyebrow={solutions.labsEyebrow} title={home.labs.heading} align="left" />
             <div className="mt-6 space-y-4 text-muted">
               {home.labs.paragraphs.map((p) => (
                 <p key={p}>{p}</p>

@@ -59,15 +59,21 @@
  "aiNote": {
   "text": "Looking for artificial intelligence services? Our AI offerings are covered on a dedicated page:",
   "label": "AI Solutions",
-  "href": "/ai-solutions/"
+  "href": "/ai-blockchain-qa-and-automation-testing/"
  },
  "industriesHeading": "Industries We Serve",
- "industries": ["Startups & Small Enterprises", "Legal & Financial Services", "Healthcare & Insurance"],
+ "industries": [
+  "Startups & Small Enterprises",
+  "Legal & Financial Services",
+  "Healthcare & Insurance"
+ ],
  "labsClosing": "The same research-driven approach shapes the services and industry solutions on this page.",
  "contact": {
   "heading": "Contact Us",
   "text": "Ready to talk about your business requirements? Tell us what you're working on, and our team will help you find the right solution.",
   "address": "7247 Marquis Ln, Irving, TX 75063",
   "phone": "+1 (682) 434-9964"
- }
+ },
+ "overviewHeading": "Overview",
+ "labsEyebrow": "Research & Innovation"
 }

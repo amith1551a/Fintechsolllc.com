@@ -59,27 +59,56 @@ for (const vp of WIDTHS) {
 }
 
 test.describe("homepage", () => {
-  test("keeps the archived section order", async ({ page }) => {
+  test("has one H1, the enterprise sections in order and updated SEO", async ({ page }) => {
+    const errors: string[] = [];
+    page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
+    page.on("pageerror", (e) => errors.push(String(e)));
     await page.goto("/");
-    const headings = await page.locator("main h2").allInnerTexts();
+    await expect(page.locator("h1")).toHaveCount(1);
+    await expect(page).toHaveTitle("Fintech Solllc – Enterprise AI, Cybersecurity & Cloud Modernization");
+    await expect(page.locator("meta[name='description']")).toHaveAttribute("content", /^FintechSol LLC helps organizations adopt AI/);
+    await expect(page.locator("link[rel='canonical']")).toHaveAttribute("href", "https://fintechsolllc.com/");
+    await expect(page.locator("meta[property='og:title']")).toHaveAttribute("content", /Enterprise AI, Cybersecurity & Cloud Modernization/);
+    const headings = (await page.locator("main h2").allInnerTexts()).map((x) => x.trim());
     const order = [
-      "Why Choose Fintech Solutions?",
-      "Our Company Services",
-      "FinTech Labs: Driving Innovation and Digital Transformation",
-      "Industry Solutions",
-      "Technology Partners",
+      "Three disciplines, one accountable partner",
       "Certifications",
+      "Faster AI adoption starts with getting the foundations right.",
+      "Find the right place to start",
+      "Technology Partners",
       "Insights & Innovations",
+      "Build Your Next Technology Advantage.",
     ];
-    const idx = order.map((h) => headings.findIndex((x) => x.trim() === h));
+    const idx = order.map((h) => headings.indexOf(h));
     expect(idx.every((i) => i >= 0), `missing: ${order.filter((_, k) => idx[k] < 0)}`).toBe(true);
     expect([...idx].sort((a, b) => a - b)).toEqual(idx);
-    await expect(page.locator("main a[href='/mvp-development/']").first()).toBeVisible();
+    const h3 = (await page.locator("main h3").allInnerTexts()).map((x) => x.trim());
+    for (const g of ["Artificial Intelligence & Agentic Systems", "Security & Cyber Resilience", "Cloud Acceleration"]) expect(h3, g).toContain(g);
+    // the "Why Choose Fintech Solutions?" band was removed on request
+    expect(headings).not.toContain("Why Choose Fintech Solutions?");
+    expect(errors).toEqual([]);
   });
 
-  test("Why Choose 'Learn More' links to Our Solutions", async ({ page }) => {
+  test("CTAs and Explore Our Solutions links point at real pages", async ({ page }) => {
     await page.goto("/");
-    await expect(page.locator("main").getByRole("link", { name: "Learn More", exact: true })).toHaveAttribute("href", "/technology-business-solutions/");
+    const main = page.locator("main");
+    await expect(main.getByRole("link", { name: "Let’s Talk About Your Technology Needs" })).toHaveAttribute("href", "/contact-us/");
+    await expect(main.getByRole("link", { name: "Explore Our Solutions" })).toHaveAttribute("href", "/technology-business-solutions/");
+    await expect(main.getByRole("link", { name: "Request a Technology Consultation" })).toHaveAttribute("href", "/get-quote/");
+    await expect(main.getByRole("link", { name: "Contact Our Team" })).toHaveAttribute("href", "/contact-us/");
+    for (const href of ["/technology-business-solutions/", "/ai-blockchain-qa-and-automation-testing/", "https://training.fintechsolllc.com/", "/industry/", "/our-partners/"])
+      await expect(main.locator(`a[href='${href}']`).first()).toBeVisible();
+    // every internal link in the page body resolves
+    const hrefs = [...new Set(await main.locator("a[href^='/']").evaluateAll((as) => as.map((a) => a.getAttribute("href")!)))];
+    for (const href of hrefs) expect((await page.request.get(href)).status(), href).toBe(200);
+  });
+
+  test("original homepage content is kept on the solutions page", async ({ page }) => {
+    await page.goto("/technology-business-solutions/");
+    const h2 = (await page.locator("main h2").allInnerTexts()).map((x) => x.trim());
+    expect(h2).toContain("FinTech Labs: Driving Innovation and Digital Transformation");
+    await expect(page.locator("main").getByText(/FinTech Labs is a hub for research, prototyping, and experimentation/)).toBeVisible();
+    await expect(page.locator("main img[alt^='FinTech Labs']")).toBeVisible();
   });
 });
 
@@ -110,7 +139,7 @@ test.describe("technology & business solutions page", () => {
     await expect(crumbs.locator("[aria-current='page']")).toHaveText("Our Solutions");
 
     const h2 = (await page.locator("main h2").allInnerTexts()).map((t) => t.trim());
-    for (const h of ["Our Services", "Industries We Serve", "FinTech Labs: Driving Innovation and Digital Transformation", "Contact Us"])
+    for (const h of ["Overview", "Our Services", "Industries We Serve", "FinTech Labs: Driving Innovation and Digital Transformation", "Contact Us"])
       expect(h2, h).toContain(h);
     const h3 = (await page.locator("main h3").allInnerTexts()).map((t) => t.trim());
     for (const [name, href] of SERVICES) {
@@ -121,7 +150,7 @@ test.describe("technology & business solutions page", () => {
       await expect(page.locator("main").getByText(i, { exact: true })).toBeVisible();
     await expect(page.locator("main").getByText("HIPAA Compliance:")).toBeVisible();
     // AI offerings live on their own page; this page only points there
-    await expect(page.locator("main a[href='/ai-solutions/']")).toHaveText("AI Solutions");
+    await expect(page.locator("main a[href='/ai-blockchain-qa-and-automation-testing/']").last()).toHaveText("AI Solutions");
     await expect(page.locator("main").getByText("Agentic AI", { exact: false })).toHaveCount(0);
     await expect(page.locator("main a[href='/get-quote/']")).toHaveCount(1);
     await expect(page.locator("main a[href='/contact-us/']")).toHaveCount(1);
@@ -133,22 +162,25 @@ test.describe("technology & business solutions page", () => {
     expect(errors).toEqual([]);
   });
 
-  test("'Our Solutions' appears once in the desktop menu and navigates", async ({ page }) => {
+  test("'Business Services' is a plain menu link to this page, on desktop and mobile", async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto("/");
     const nav = page.getByRole("navigation", { name: "Main" });
-    await expect(nav.getByRole("link", { name: "Our Solutions", exact: true })).toHaveCount(1);
-    await nav.getByRole("link", { name: "Our Solutions", exact: true }).click();
+    const item = nav.getByRole("link", { name: "Business Services", exact: true });
+    await expect(item).toHaveCount(1);
+    await expect(item).not.toHaveAttribute("aria-haspopup", /.+/);
+    await expect(nav.locator("a[href='/technology-business-solutions/']")).toHaveCount(1);
+    await expect(nav.getByRole("link", { name: "Our Solutions", exact: true })).toHaveCount(0);
+    for (const gone of ["MVP Development", "IT Training", "Cybersecurity"]) await expect(nav.getByRole("link", { name: gone, exact: true })).toHaveCount(0);
+    await item.click();
     await expect(page).toHaveURL(/\/technology-business-solutions\/$/);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Technology & Business Solutions");
-  });
 
-  test("'Our Solutions' is in the mobile menu", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/");
     await page.getByRole("button", { name: "Open menu" }).click();
     const menu = page.getByRole("navigation", { name: "Mobile" });
-    await menu.getByRole("link", { name: "Our Solutions", exact: true }).click();
+    await menu.getByRole("link", { name: "Business Services", exact: true }).click();
     await expect(page).toHaveURL(/\/technology-business-solutions\/$/);
   });
 
@@ -159,17 +191,15 @@ test.describe("technology & business solutions page", () => {
 });
 
 test.describe("navigation", () => {
-  test("desktop dropdown lists the services and navigates", async ({ page }) => {
+  test("desktop dropdown opens and navigates", async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto("/");
     const nav = page.getByRole("navigation", { name: "Main" });
-    await nav.getByRole("link", { name: "Services", exact: true }).hover();
-    const item = nav.getByRole("link", { name: "MVP Development" });
+    await nav.getByRole("link", { name: "About us", exact: true }).hover();
+    const item = nav.getByRole("link", { name: "Blog", exact: true });
     await expect(item).toBeVisible();
     await item.click();
-    await expect(page).toHaveURL(/\/mvp-development\/$/);
-    // after client navigation the previous route stays mounted but hidden (React Activity): query visible only
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("MVP Development");
+    await expect(page).toHaveURL(/\/blog\/$/);
   });
 
   test("mobile menu opens, expands a submenu, navigates and closes", async ({ page }) => {
@@ -180,9 +210,9 @@ test.describe("navigation", () => {
     await toggle.click();
     const menu = page.getByRole("navigation", { name: "Mobile" });
     await expect(menu).toBeVisible();
-    await menu.getByText("Services", { exact: true }).click();
-    await menu.getByRole("link", { name: "Cybersecurity", exact: true }).click();
-    await expect(page).toHaveURL(/\/cybersecurity\/$/);
+    await menu.getByText("About us", { exact: true }).click();
+    await menu.getByRole("link", { name: "Blog", exact: true }).click();
+    await expect(page).toHaveURL(/\/blog\/$/);
     await expect(menu).toBeHidden();
     await expect(page.getByRole("button", { name: "Open menu" })).toHaveAttribute("aria-expanded", "false");
   });

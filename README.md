@@ -43,7 +43,7 @@ visitor the message was **not** sent, with a pre-filled email link and the phone
 ```
 src/
   app/
-    page.tsx                               homepage (archived section order)
+    page.tsx                               enterprise homepage (copy in content/homepage.json)
     [slug]/page.tsx                        company, service, solution and legal pages (/about-us-3/, /mvp-development/, …)
     [slug]/[month]/[day]/[post]/page.tsx   blog articles at their original /YYYY/MM/DD/slug/ URLs
     services/  contact-us/                 pages with custom layouts
